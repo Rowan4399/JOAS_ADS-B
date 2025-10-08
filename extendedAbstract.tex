@@ -1,0 +1,161 @@
+\section{Abstract Extension}
+
+With the rapid growth of global air traffic, traditional radar surveillance systems, such as primary surveillance radar (PSR) and secondary surveillance radar (SSR), have shown increasing limitations in coverage, accuracy, and cost. To address these issues, ADS-B technology was developed. Relying on satellite navigation and onboard sensors, ADS-B uses the Global Navigation Satellite System (GNSS) to obtain position and velocity information, which is then integrated with barometric altitude, inertial navigation, and airspeed measurements to generate flight state data. This information is periodically broadcast via ADS-B devices, including identifiers, position, altitude, velocity, and flight intent~\cite{olive2024filtering}. Compared with traditional radar, ADS-B significantly enhances situational awareness for both pilots and air traffic controllers, while reducing infrastructure construction and maintenance costs.
+
+The development of ADS-B can be traced back to the 1970s, with its concept first proposed and later validated in the U.S. FAA’s Safe Flight 21 project during the 1990s. The “Capstone Program” in Alaska (1999-2006)~\cite{faa2000capstone} further demonstrated its ability to improve safety and efficiency in remote airspace. In 2003, the 11th ICAO Air Navigation Conference officially recognized ADS-B as a surveillance method and promoted standardization. Since the 2010s, ADS-B has entered large-scale deployment: the U.S. FAA mandated “ADS-B Out”~\cite{cfr91-225}, Europe implemented ADS-B under the SESAR framework~\cite{undertaking2009european}, and Australia~\cite{casa2010cao20-18}, Singapore, and other countries followed suit, with China issuing its national implementation plan in 2015~\cite{caac2015adsb}. More recently, space-based ADS-B technology~\cite{melero2024satera} has extended global coverage, while open platforms such as OpenSky Network~\cite{schafer2014bringing} have improved data accessibility and research value.
+
+Beyond surveillance, ADS-B data are widely used in both research and operational applications. Typical studies include trajectory prediction~\cite{wang2017short}\cite yoon2023improving}, flight phase identification~\cite{wang2021performance}, trajectory clustering and modeling~\cite{corrado2021clustering}, safety analysis~\cite{schlosser2024analysis} (e.g., conflict detection and collision risk assessment), and airport operations optimization~\cite{guleriamachine} (e.g., runway occupancy and taxiing analysis). ADS-B is also applied in environmental studies, such as fuel consumption estimation~\cite{noh2018aviation}, contrail detection~\cite{roosenbrand2023contrail}, and large-scale emissions assessment~\cite{sun2023evaluating}.
+
+
+Despite its widespread use, ADS-B data quality remains a significant concern. Limitations in acquisition and transmission often result in missing points, irregular sampling, and anomalies, which increase processing difficulty and may bias analysis results. To enhance usability, researchers typically apply data cleaning and preprocessing methods, such as time-series interpolation, trajectory smoothing, outlier removal, and resampling. While these methods improve data completeness and consistency, they can alter the statistical and physical characteristics of the original trajectories, potentially affecting downstream algorithms. For example, interpolation can fill missing points and improve completeness, but excessive interpolation may smooth subtle variations, increasing trajectory prediction errors. Outlier removal enhances physical plausibility but may discard extreme but genuine events, causing missed warnings in conflict detection or safety assessment. Trajectory smoothing reduces position jitter but weakens turning or curvature features, affecting behavior-based prediction or identification models. Resampling standardizes sampling intervals for easier model processing but may introduce artificial speed or vertical rate changes, impacting time-dependent prediction algorithms. These examples illustrate the complex and conditional impact of data cleaning on algorithm performance. Existing studies generally focus on data-level improvements and lack systematic, quantitative analysis of how different cleaning strategies affect downstream algorithm outputs. Therefore, it is necessary to construct multi-level data quality metrics, create datasets of varying quality, and conduct controlled experiments under a unified algorithm framework to elucidate the role of data cleaning in ADS-B applications and provide methodological support for trajectory prediction, safety assessment, and air traffic management.
+
+To address this need, this article develops a structured and indicator-driven evaluation framework. By quantifying data quality across multiple dimensions, generating datasets of different quality levels, and performing comparative experiments under a unified algorithmic environment, the framework enables a quantitative assessment of how various cleaning strategies affect algorithm performance.
+
+In the data quality evaluation stage, a multi-dimensional metric system was designed to quantify data quality from different perspectives. For example, completeness measures the alignment between observed points and theoretical sampling frequency, approaching 1 when deviations are below a set threshold and the time series is continuous. Reliability reflects the physical plausibility of flight trajectories, approaching 1 when speed, climb rate, and other parameters are within reasonable ranges. Consistency captures spatial and temporal smoothness and continuity. Further analysis indicates that different metrics exhibit varying sensitivity to algorithm performance: completeness strongly affects predictive and analytical results, while some physical constraints have a limited impact. Understanding metric sensitivity not only helps explain algorithm performance differences but also informs more precise data cleaning strategies.
+
+In dataset construction, high-quality, carefully cleaned trajectories were used as an “ideal” reference, with controlled anomalies (e.g., random noise, missing points, trajectory perturbations, and resampling) introduced to create datasets of varying quality. This design ensures comparability in experiments while simulating the diversity and complexity of real-world data, providing a realistic basis for algorithm evaluation.
+
+In the algorithm validation stage, datasets of varying quality were fed into a unified set of application algorithms (e.g., trajectory prediction or air traffic management models). Comparative analysis across datasets quantifies the effect of data cleaning and quality differences on algorithm performance. This approach clarifies the role of data processing in ADS-B applications and supports the reliability and reproducibility of related algorithms.
+
+By integrating a multidimensional evaluation system with a structured experimental framework, this study not only reveals the specific impacts of different data cleaning strategies on algorithm performance, but also clarifies the sensitivity of various data quality metrics, providing a quantitative assessment method and a robust data foundation for trajectory prediction, safety assessment, and air traffic management applications.
+
+%Large comment to skip this
+\iffalse
+\section{User guide for this template}
+
+\textcolor{red}{DO NOT submit papers containing LaTeX error messages.} If you see any error messages, please fix them before submission. Please read the following guidelines carefully.
+
+The copy editor is Junzi alone for the moment; any time saved for him is time saved for you :).
+
+\subsection{Title}
+The title should be in Title Case. Keep it concise and informative, ideally within 12 words. Avoid abbreviations in the title unless they are widely recognized.
+
+\subsection{Single main file}
+\textcolor{red}{DO NOT use external .tex files}, like \verb|\input{}| or \verb|\include{}|. Place all content in \texttt{main.tex}.
+
+\subsection{Keep the original file names}
+\textcolor{red}{DO NOT rename filenames} including \texttt{main.tex}, the \texttt{figures} folder, or \texttt{reference.bib}, to ensure compatibility with the automated copyediting process.
+
+\subsection{References}
+Add your bibliography entries to \texttt{reference.bib} and cite them using \verb|\cite{}|. Here is an example citation on diamond open access \cite{fuchs2013diamond}. Since many of you are using the OpenSky data, here is another example \cite{schafer2014bringing}.
+
+\subsection{Footnotes}
+Use footnotes sparingly. They should be used for additional information that is not essential to the main text. Use the \verb|\footnote{}| command to create footnotes.\footnote{This is an example footnote that works.}
+
+\subsection{Tables}
+Use the standard \texttt{tabular} environment. \textcolor{red}{Avoid custom or complex table designs} to ensure compatibility for the web version. Table \ref{tb:example_table} shows an example that always works.
+
+\begin{table}[htbp!]
+  \centering
+  \small
+  \caption{Example table}
+  \label{tb:example_table}
+  \begin{tabular}{lll}
+  \toprule
+  \textbf{Parameter} & \textbf{Notation} & \textbf{Remarks} \\
+  \midrule
+  name & - & engine common identifier \\
+  manufacture & - & name of the manufacturer  \\
+  bpr & $\lambda$ & bypass ratio \\
+  pr & - & pressure ratio \\
+  thrust & $T_0$ & maximum static thrust\\
+  \bottomrule
+  \end{tabular}
+\end{table}
+
+\subsection{Figures}
+Store all figures in the \textbf{figures} folder. Use concise, space-free, and lowercase filenames.
+
+Ensure that the figure is in a compatible format (.png or .pdf) and is appropriately sized (not too large or too small). Figure~\ref{fig:example} shows an example of how to include a figure.
+
+\begin{figure}[htbp!]
+  \centering
+  \includegraphics[width=0.4\textwidth]{example-image}
+  \caption{An Example Figure}
+  \label{fig:example}
+\end{figure}
+
+If you need subfigures, \textcolor{red}{DO NOT use the \texttt{subfloat} package}. You are recommended to use the \texttt{subfigure} package instead. Figure~\ref{fig:subfig_example} shows an example of how to use subfigures.
+
+\begin{figure}[htbp!]
+  \centering
+  \subfigure[First subfigure]{\includegraphics[width=0.3\textwidth]{example-image-a}}
+  \hspace{0.2cm}
+  \subfigure[Second subfigure]{\includegraphics[width=0.3\textwidth]{example-image-b}}
+  \caption{An Example of subfigures}
+  \label{fig:subfig_example}
+\end{figure}
+
+Attention: in your text, use \verb|Figure \ref{fig:example}|, NOT \verb|Fig. \ref{fig:example}|.
+
+
+\subsection{Equations}
+Use the \verb|equation| environment for numbered equations. You must avoid customized variable names. Otherwise, the HTML version will not be generated properly.
+
+For example, Equation \ref{eq:cauchy_momentum} shows an example equation.
+
+\begin{equation} \label{eq:cauchy_momentum}
+\rho\frac{\mathrm{D} \mathbf{u}}{\mathrm{D} t} = - \nabla p + \nabla \cdot \boldsymbol \tau + \rho\,\mathbf{g}
+\end{equation}
+
+\subsection{Abbreviations}
+Use the \verb|\abbreviations{}| command to define abbreviations. Only use abbreviations if the term is used more than ten times throughout the paper. Otherwise, write them in full.
+
+
+\section{Sections}
+
+Organize your paper using standard sectioning commands (\verb|\section|, \verb|\subsection|, etc.).
+
+Some standard sections are:
+
+\begin{itemize}
+  \item Introduction
+  \item Methods
+  \item Results
+  \item Discussion
+  \item Conclusion
+\end{itemize}
+
+You can add or remove sections as needed.
+
+Use \verb|Appendix| for supplementary material. The appendix should be used for additional information that is not essential to the main text but may be useful for some readers. Remove this section if you do not have any supplementary material.
+
+\appendix
+
+\section{Supplementary figures}
+
+\section{Supplementary tables}
+
+
+\section*{Acknowledgement}
+Include your acknowledgements in this section.
+
+% Author contributions (CRediT) are mandatory for all papers with more than one author
+\section*{Author contributions}
+If the paper has more than one author, the CRediT section must be included. See example usage at \url{https://casrai.org/credit/}
+
+\begin{itemize}
+  \item First Author: Conceptualization, Data Curation, Formal Analysis, Funding Acquisition, Investigation, Methodology, Project Administration, Resources, Software, Supervision, Validation, Visualization, Writing (Original Draft), Writing (Review and Editing)
+  \item Second Author: Data Curation, Writing - Original Draft
+  \item Third Author: Visualization, Investigation
+\end{itemize}
+
+
+\section*{Funding statement}
+When applicable, please specify the funding information for this research.
+
+
+% Data statement is mandatory for all papers
+\section*{Open data statement}
+\textcolor{red}{Mandatory section!}
+
+Include DOI and a short description of supplementary data.
+
+% reproducibility statement is mandatory for all papers
+\section*{Reproducibility statement}
+\textcolor{red}{Mandatory section!}
+
+Information on how to reproduce this research, including access to: 1) source code related to the research, 2) source code for the figures, 3) source code/data for the tables when applicable.
+
+%end large comment
+\fi

@@ -1,9 +1,9 @@
 \section{State of the Art}
 
-possible citation \cite{kovzovic2023air}
+This chapter provides a systematic review of ADS-B technology and its current applications in aviation research. It begins with a review of the development and technical evolution of the ADS-B system, highlighting its role and advantages within modern air traffic management. Subsequently, based on a systematic literature review, the use of ADS-B data across different research domains is summarized and categorized, outlining the main directions and emerging trends. This overview lays the theoretical and practical foundation for the subsequent chapters on data cleaning and algorithm performance evaluation.
 
 
-\subsection{ADSB History}
+\subsection{ADS-B History}
 In the early stages of civil aviation, air traffic controllers primarily relied on Primary Surveillance Radar (PSR) and Secondary Surveillance Radar (SSR) to monitor aircraft. However, with improvements in aircraft performance and the expansion of long-haul air routes, the limitations of PSR and SSR—such as restricted coverage, insufficient information accuracy, and delayed updates—gradually became apparent. These limitations not only increased the navigational difficulty for long-distance flights but also posed safety risks. For instance, in 1983, Korean Air Flight 007 deviated from its intended route due to insufficient radar coverage, navigation system malfunctions, and communication failures~\cite{icao_1993}, ultimately entering Soviet airspace and being shot down, resulting in a major aviation accident.
 
 To address these challenges, the aviation industry gradually developed the Automatic Dependent Surveillance–Broadcast (ADS-B) system over several decades. ADS-B leverages the Global Navigation Satellite System (GNSS) and onboard sensors, integrating information such as barometric altitude, inertial navigation, and airspeed measurements to generate aircraft state parameters. These parameters, including identification codes, position, altitude, velocity, and flight intent, are periodically broadcast via onboard ADS-B equipment~\cite{olive2024filtering}. Compared with traditional radar, ADS-B offers higher accuracy, shorter update intervals, broader coverage, and lower infrastructure and maintenance costs. It significantly enhances situational awareness for both pilots and air traffic controllers while reducing the burden on ground surveillance infrastructure.
@@ -13,18 +13,9 @@ The development of ADS-B can be traced back to the 1970s. In 1992, the Radio Tec
 Since 2010, ADS-B has gradually entered large-scale global deployment. Various countries have promoted its adoption through regulations. The FAA requires all aircraft operating in controlled airspace to be equipped with ADS-B Out~\cite{cfr91-225}; Europe has similarly mandated ADS-B under the SESAR framework~\cite{undertaking2009european}, expecting to increase European airspace capacity by 80–100\% by 2040. Australia~\cite{casa2010cao20-18} and Singapore have also implemented ADS-B mandates. In China, a national policy issued in 2015~\cite{caac2015adsb} required the installation of ADS-B equipment on commercial aircraft. Meanwhile, satellite-based ADS-B~\cite{melero2024satera} has enabled real-time and high-precision surveillance over approximately 70\% of global airspace, and open platforms such as the OpenSky Network~\cite{schafer2014bringing} provide large-scale ADS-B data resources for academic research.
 
 
-\subsection{ADSB Data current usages}
-review of the litterature.
+\subsection{ADS-B Data current usages}
 
-what are the usages of ADSB data
-
-What are the algorihtms, categories?
-What are the cleaning process?
-
-
-an overview of the current use of ADS-B data in the research domain, identifying and structuring clusters of algorithms in use;
-
- an analysis of the main trends in ADS-B data usage based on a systematic literature review;
+This section presents an overview of the current use of ADS-B data in the research domain, identifying and organizing clusters of algorithms and application areas. In this study, the collected literature is categorized into eight major domains, spanning from trajectory modeling and operational management to environmental sustainability and cybersecurity. These analyses provide a structured overview of the evolving research landscape surrounding ADS-B applications in aviation.
 
  \subsubsection{Paper Selection}
 
@@ -41,11 +32,11 @@ The detailed screening process was as follows:
     \item \textbf{Duplication and Accessibility Review:} Duplicate publications and inaccessible preprints were removed to ensure the reproducibility and verifiability of the results.
 \end{itemize}
 
-After multiple rounds of screening and manual verification, a total of 161 papers were collected, covering representative applications of ADS-B data across diverse research domains. The distribution of the selected studies by source is illustrated in Figure ~\ref{fig:placeholder}.
+After multiple rounds of screening and manual verification, a total of 145 papers were collected, covering representative applications of ADS-B data across diverse research domains. The distribution of the selected studies by source is illustrated in Figure ~\ref{fig:placeholder}.
 
 \begin{figure}
     \centering
-    \includegraphics[width=1\linewidth]{paper_selection.png}
+    \includegraphics[width=1\linewidth]{paper_selection1.png}
     \caption{Paper collection flow}
     \label{fig:placeholder}
 \end{figure}
@@ -69,123 +60,144 @@ In the preliminary organization stage, the literature was grouped into four broa
 Therefore, this study adopted a combination of thematic synthesis and semantic grouping to reclassify the literature. This process comprehensively considered the research objectives, data utilization patterns, and the functional role of ADS-B within each study, aiming to establish a classification framework that systematically reflects the overall landscape of ADS-B research.
 
 Finally, ADS-B–related studies were categorized into eight major domains:
-Trajectory Modeling and Prediction, Operational Optimization and Management, Operational Safety and Surveillance, Aircraft Performance and Efficiency, Data Engineering and Enhancement, Environment and Sustainability, Security and Cybersecurity, Methodology, Simulation, and Policy
-
+Trajectory Modeling and Prediction, Operational Optimization and Management, Operational Safety and Surveillance, Aircraft Performance and Efficiency, Data Engineering and Enhancement, Environment and Sustainability, Security and Cybersecurity, Methodology, Simulation, and Policy.
 This classification framework provides the structural foundation for the domain-specific analysis presented in the following sections.
 
+As shown in Table \ref{tb: 8categories}, the classification results derived from thematic induction and semantic grouping are presented, covering typical application domains of ADS-B data across eight research categories and their representative algorithms. In the following sections, each category is further elaborated in terms of its research scope and representative studies.
+
+
+
+\begin{table}[h]
+	\centering
+	\caption{Summary of ADS-B Application Categories, Main Methods, and Data Roles}
+	\label{tb: 8categories}
+	\begin{tabular}{p{3cm} p{6cm} p{3cm}}
+		\hline
+		\textbf{Category} & \textbf{Main Methods} & \textbf{Role of ADS-B Data} \\
+		\hline
+		\textbf{Trajectory Modeling and Prediction} &
+		\makecell[l]{Clustering (DBSCAN, K-means)\\
+			LSTM/Transformer prediction\\
+			Autoencoder feature extraction\\
+			DTW\\
+			PCA\\
+			Hybrid physical–data models} &
+		\textbf{Core data source} \\
+		\hline
+		
+		\textbf{Operational Optimization and Management} &
+		\makecell[l]{
+			MILP\\
+			Simulated annealing\\
+			Heuristic algorithms\\
+			KPI-based performance metrics\\
+			Historical traffic analysis
+		} &
+		\textbf{Real-time/historical traffic input} \\
+		\hline
+		
+		\textbf{Operational Safety and Surveillance} &
+		\makecell[l]{
+			DAA geometric models\\
+			Anomaly detection (thresholds, clustering, autoencoder, GMM)\\
+			Monte Carlo risk evaluation
+		} &
+		\textbf{Flight monitoring and safety baseline} \\
+		\hline
+		
+		\textbf{Aircraft Performance and Efficiency} &
+		\makecell[l]{
+			Dynamic equation inversion\\
+			Maximum likelihood estimation\\
+			Bayesian inference\\
+			Particle filtering\\
+			Regression and neural networks
+		} &
+		\textbf{Model calibration data source} \\
+		\hline
+		
+		\textbf{Data Engineering and Enhancement} &
+		\makecell[l]{
+			Kalman filtering\\
+			Map-matching\\
+			Multisource fusion\\
+			Data indexing\\
+			Generative models (TimeGAN)
+		} &
+		\textbf{Primary processing object} \\
+		\hline
+		
+		\textbf{Environment and Sustainability} &
+		\makecell[l]{
+			Trajectory-based emission estimation\\
+			Remote sensing data fusion\\
+			Optimal control route planning
+		} &
+		\textbf{Environmental assessment input} \\
+		\hline
+		
+		\textbf{Security and Cybersecurity} &
+		\makecell[l]{
+			Intrusion detection (ML classifiers)\\
+			Protocol vulnerability testing\\
+			SDR signal analysis
+		} &
+		\textbf{Research target} \\
+		\hline
+		
+		\textbf{Methodology, Simulation, and Policy} &
+		\makecell[l]{
+			Open-source simulation platform development\\
+			Data standardization\\
+			Policy and privacy analysis
+		} &
+		\textbf{Research infrastructure and policy object} \\
+		\hline
+	\end{tabular}
+	\label{tab:adsb_applications}
+\end{table}
 
 \textbf{Trajectory Modeling and Prediction.} 
 This domain focuses on modeling historical and real-time aircraft trajectories and predicting their future states. The core tasks include 4D prediction, estimated time of arrival (ETA) calculation, trajectory pattern clustering and quantification of prediction uncertainty. As the core data source, ADS-B provides continuous, high-precision measurements of aircraft position, velocity, and altitude, forming the foundation for trajectory modeling and prediction. The data quality directly affects model accuracy and reliability. Gui et al. \cite{xuhao2021trajectory} proposed a semantic trajectory representation for arrival flight clustering to support airspace design, flow management, and ETA estimation; Wang et al. \cite{wang2017short} applied PCA-based dimensionality reduction and DBSCAN clustering for preprocessing, followed by a Multi-Cell Neural Network (MCNN) for short-term trajectory prediction in terminal maneuvering areas (TMA); and Wang et al. \cite{wang2018hybrid} integrated clustering-based preprocessing with hybrid MCNN models to improve ETA prediction accuracy.
 
 \textbf{Operational Optimization and Management.} 
-This domain focuses on improving the overall efficiency of airspace and airport operations, encompassing air traffic flow management, surface operations (taxiing and sequencing), terminal maneuvering area coordination, and airspace structure optimization. ADS-B data play a central role by providing continuous and fine-grained historical and real-time traffic information, serving as a reliable input for optimization models and decision-support systems. It enables accurate operational performance evaluation and data-driven strategy optimization. Research in this area often applies Mixed Integer Linear Programming, Simulated Annealing, and heuristic algorithms to address sequencing, scheduling, and routing problems. Other studies employ queuing models and Key Performance Indicators (KPIs) for operational assessment or mine historical ADS-B data to identify bottlenecks such as taxiway congestion and sector capacity limits. Basora et al. \cite{basora2018occupancy} developed a sector occupancy peak prediction model combining DBSCAN-based traffic flow clustering with Random Forest regression, and Delahaye et al. \cite{delahaye2022air} explored flow coordination at major intersections by applying hierarchical clustering to detect dominant flow patterns and using Transformer-based sequence modeling to support flow prediction and capacity management for air traffic controllers.
+This domain focuses on improving the overall efficiency of airspace and airport operations, encompassing air traffic flow management, surface operations (taxiing and sequencing), terminal maneuvering area coordination, and airspace structure optimization. ADS-B data play a central role by providing continuous and fine-grained historical and real-time traffic information, serving as a reliable input for optimization models and decision-support systems. It enables accurate operational performance evaluation and data-driven strategy optimization. Research in this area often applies Linear Programming, Simulated Annealing, and heuristic algorithms to address sequencing, scheduling, and routing problems. Other studies employ queuing models and Key Performance Indicators (KPIs) for operational assessment or mine historical ADS-B data to identify bottlenecks such as taxiway congestion and sector capacity limits. Basora et al. \cite{basora2018occupancy} combined DBSCAN clustering with Random Forest regression for sector occupancy prediction, and Delahaye et al. \cite{delahaye2022air} used hierarchical clustering with Transformer models for flow pattern detection and capacity management.
 
 \textbf{Operational Safety and Surveillance.} 
-This research domain focuses on ensuring aviation operational safety through enhanced situational awareness and data-driven analysis. Core topics include conflict detection and resolution (Detect and Avoid, DAA / ACAS), abnormal event detection (e.g., go-arounds, unstable approaches), operational risk assessment (such as collision risk and airspace complexity), and surveillance system performance evaluation. As an independent surveillance source, ADS-B data provide continuous and high-precision trajectory and state information, enabling real-time monitoring of aircraft behavior, detection of potential conflicts and anomalies, and quantitative assessment of operational safety. Bonifazi et al. \cite{bonifazi2021modeling} identified unstable approaches and go-arounds using ADS-B data, employing rule-based methods and Gaussian Mixture Models (GMM) for anomaly detection and integrating runway and weather information for improved accuracy. Rorie et al. \cite{rorie2024detect} conducted the first real-world evaluation of the ACAS Xr airborne collision avoidance system. Zhang et al. \cite{zhang2024study} investigated conflict-free routing strategies and compared multiple optimization algorithms, while Bao et al. \cite{bao2024exploring} proposed a multi-airport terminal area risk prediction framework to assess inter-airport conflict probabilities. Collectively, these works highlight the pivotal role of ADS-B data in safety assurance and operational surveillance research.
+This research domain aims to enhance aviation safety and situational awareness through data-driven analysis. It covers conflict detection and resolution (DAA / ACAS), abnormal event detection (e.g., go-arounds, unstable approaches), assessment of collision risk and airspace complexity, and performance evaluation of surveillance systems. As an independent surveillance source, ADS-B data provide continuous and high-precision trajectory and state information, enabling real-time monitoring of aircraft behavior, detection of potential conflicts and anomalies, and quantitative assessment of operational safety.
+Bonifazi et al. \cite{bonifazi2021modeling} identified unstable approaches and go-arounds using ADS-B data, employing rule-based methods and Gaussian Mixture Models (GMM) for anomaly detection and integrating runway and weather information for improved accuracy. Rorie et al. \cite{rorie2024detect} conducted the first real-world evaluation of the ACAS Xr airborne collision avoidance system. Zhang et al. \cite{zhang2024study} investigated conflict-free routing strategies and compared multiple optimization algorithms, while Bao et al. \cite{bao2024exploring} proposed a multi-airport terminal area risk prediction framework to assess inter-airport conflict probabilities. 
 
 \textbf{Aircraft Performance and Efficiency.} 
-This research area focuses on deriving aircraft performance parameters from flight data to calibrate or complement existing performance models such as BADA, and to assess energy efficiency across different aircraft types and operational phases. Key parameters include aircraft mass, drag polar, thrust settings, fuel consumption, and speed profiles. In this context, ADS-B data serve as a crucial source of flight state information—providing ground speed, vertical rate, and heading—that enables large-scale, fleet-level performance analysis even when detailed design parameters are unavailable. This facilitates more accurate and data-driven model validation and calibration. Sun et al. \cite{sun2018aircraft} proposed a stochastic hierarchical modeling framework combining Bayesian computation and Markov Chain Monte Carlo (MCMC) sampling to estimate drag polars from flight data, deriving zero-lift drag coefficients and induced drag factors. Schultz et al. \cite{schultz2022data} integrated FDR and ADS-B data to model aircraft fuel consumption and operational efficiency using CART and neural network models. Alligier et al. \cite{alligier2020predictive} predicted aircraft mass and speed intent during climb phases to improve physics-based ground trajectory prediction. Collectively, these studies demonstrate the essential role of ADS-B data in performance inversion, efficiency modeling, and validation of aircraft performance models.
+This research area focuses on deriving aircraft performance parameters from flight data to calibrate or complement existing models such as BADA, and to evaluate energy efficiency across aircraft types and flight phases. Key parameters include aircraft mass, drag polar, thrust settings, fuel consumption, and speed profiles.
+In this context, ADS-B data provide essential flight state information—such as ground speed, vertical rate, and heading—enabling large-scale, fleet-level performance analysis even in the absence of detailed design data. This supports more accurate and data-driven model calibration and validation.
+Sun et al. \cite{sun2018aircraft} developed a probabilistic framework to estimate aerodynamic parameters from operational data; Schultz et al. \cite{schultz2022data} integrated FDR and ADS-B data to model fuel consumption and operational efficiency using machine learning methods; and Alligier et al. \cite{alligier2020predictive} predicted aircraft mass and speed intent during climb to enhance physics-based trajectory prediction.
 
 \textbf{Data Engineering and Enhancement.} 
-This category focuses on improving the quality and usability of raw ADS-B data, which serve as the foundation for subsequent analytical and modeling applications. Key tasks include data cleaning and anomaly detection, missing-value imputation, multi-source data fusion, data compression and indexing, and synthetic data generation. In this research domain, ADS-B data themselves are the core subject of engineering—aimed at producing cleaner, more complete, and more interoperable datasets that can support trajectory prediction, operational analysis, and safety evaluation. Tabassum et al. \cite{tabassum2017ads} performed long-term statistical analysis and anomaly identification on ADS-B messages and basic reports, revealing the effects of systematic errors and signal loss on trajectory accuracy. Wandelt et al. \cite{wandelt2018ads} proposed an efficient compression and indexing scheme for large-scale ADS-B records to enable real-time querying and scalable analytics. Spinielli et al. \cite{spinielli2017initial} led by the EUROCONTROL Performance Review Unit (PRU), developed an open and reproducible reference trajectory dataset for operational performance assessment, integrating multiple data sources including ADS-B, CPR, airport data, and Network Manager (NM) information. Collectively, these studies have advanced ADS-B data from raw collection toward structured, reliable research assets.
+This category focuses on improving the quality and usability of raw ADS-B data, which form the foundation for subsequent analytical and modeling applications. Key tasks include data cleaning and anomaly detection, missing-value imputation, multi-source data fusion, data compression and indexing, and synthetic data generation. In this domain, ADS-B data themselves are the core subject of engineering—aimed at producing cleaner, more complete, and more interoperable datasets that support trajectory prediction, operational analysis, and safety evaluation.
+Tabassum et al. \cite{tabassum2017ads} conducted long-term statistical analysis to identify anomalies and assess the impact of systematic errors on trajectory accuracy. Wandelt et al. \cite{wandelt2018ads} introduced an efficient compression and indexing framework to enable scalable querying and analytics of large-scale ADS-B records. Spinielli et al. \cite{spinielli2017initial} developed a reproducible reference trajectory dataset by integrating multiple surveillance sources for performance assessment under the EUROCONTROL PRU initiative.
 
-\textbf{Environment and Sustainability}
+\textbf{Environment and Sustainability.}
 This research area focuses on quantifying the environmental impact of aviation operations and exploring sustainable optimization strategies, including greenhouse gas and pollutant emission assessment, contrail formation detection and avoidance, and noise evaluation. Owing to its wide coverage and high temporal resolution, ADS-B data serve as a crucial source for environmental modeling and validation. For instance, Roosenbrand et al. \cite{roosenbrand2023contrail} proposed a method to estimate contrail altitudes using shadows in Landsat satellite imagery, with ADS-B data employed as ground truth for validation. Sun et al. \cite{sun2023evaluating} integrated satellite-based and ground-based ADS-B data with wind field information to improve emission estimation and compared actual flight trajectories with optimal routes to quantify excess emissions.
 
-\textbf{Security and Cybersecurity}
-This domain focuses on identifying and mitigating cybersecurity threats targeting the ADS-B system itself, such as False Data Injection Attacks (FDIA), signal spoofing, and message tampering, to ensure the integrity and reliability of surveillance information. In this field, the ADS-B protocol, signal, and data link are the direct subjects of vulnerability analysis and protection technology research. For example, Cretin et al. \cite{cretin2018increasing} proposed a Domain-Specific Language (DSL)-based testing framework to evaluate the resilience of Air Traffic Control (ATC) systems against FDIA, while Khan et al. \cite{khan2021intrusion} employed machine learning techniques for ADS-B intrusion detection.
+\textbf{Security and Cybersecurity.}
+This domain focuses on identifying and mitigating cybersecurity threats targeting the ADS-B system itself, such as False Data Injection Attacks (FDIA), signal spoofing, and message tampering, to ensure the integrity and reliability of surveillance information. In this field, the ADS-B protocol, signal, and data link are the direct subjects of vulnerability analysis and protection technology research. For example, Cretin et al.\cite{cretin2018increasing} proposed a Domain-Specific Language (DSL)-based testing framework to evaluate the resilience of Air Traffic Control (ATC) systems against FDIA, while Khan et al. \cite{khan2021intrusion} employed machine learning techniques for ADS-B intrusion detection.
 
-\textbf{Methodology, Simulation, and Policy}
-This category provides foundational tools, frameworks, and policy support for aviation research. It includes the development of open-source simulation platforms, advocacy of reproducible research practices, establishment of data standards, and discussion of regulatory and privacy issues related to ADS-B deployment. In this context, ADS-B serves both as input data for constructing realistic scenarios in simulation environments and as a focal topic in advancing data-sharing policies, privacy protection, and industry standards. For example, Mehlitz et al. \cite{mehlitz2019analyzing} proposed the RACE framework for comprehensive airspace data analysis, while Bolic et al. \cite{bolic2024roadmap} systematically elaborated on the European ATM Open Science Alliance and its Open Performance Data Initiative (OPDI).
+\textbf{Methodology, Simulation, and Policy.}
+This category provides foundational tools, frameworks, and policy support for aviation research. It includes the development of open-source simulation platforms, advocacy of reproducible research practices, establishment of data standards, and discussion of regulatory and privacy issues related to ADS-B deployment. In this context, ADS-B serves both as input data for constructing realistic scenarios in simulation environments and as a focal topic in advancing data-sharing policies, privacy protection, and industry standards. For example, Mehlitz et al. \cite{mehlitz2019analyzing} proposed the RACE framework for comprehensive airspace data analysis, while Bolic et al. ~\cite{bolic2024roadmap} systematically elaborated on the European ATM Open Science Alliance and its Open Performance Data Initiative (OPDI), which aim to foster transparency and open research in the ATM domain.
 
- 
-\begin{table*}[htbp]
-\centering
-\caption{Summary of ADS-B Application Categories, Main Methods, and Data Roles}
-\begin{tabular}{p{3cm} p{6cm} p{3cm}}
-\hline
-\textbf{Category} & \textbf{Main Methods} & \textbf{Role of ADS-B Data} \\
-\hline
-\textbf{Trajectory Modeling and Prediction} &
-\makecell[l]{Clustering (DBSCAN, K-means)\\
-LSTM/Transformer prediction\\
-Autoencoder feature extraction\\
-DTW\\
-PCA\\
-Hybrid physical–data models} &
-\textbf{Core data source} \\
-\hline
+To provide a clearer overview of the application fields of ADS-B data, we conducted a quantitative analysis of field attribution for 145 valid papers from journals including DASC and SESAR, based on the eight aforementioned classification categories. The results are presented in Figure \ref{fig:paperpiechart2}. It should be noted that some papers cover multiple fields (e.g., Data Engineering + Aircraft Performance Calculation) and are assigned to multiple application fields in accordance with the rule of "counting each involved field separately". Consequently, the total number of papers counted in the pie chart is greater than the actually counted 145 valid samples.
 
-\textbf{Operational Optimization and Management} &
-\makecell[l]{
-MILP\\
-Simulated annealing\\
-Heuristic algorithms\\
-KPI-based performance metrics\\
-Historical traffic analysis
-} &
-\textbf{Real-time/historical traffic input} \\
-\hline
+From the overall distribution, papers related to Operational Optimization and Management represent the most prominent field in ADS-B data research, accounting for 30.6\%. This is followed by Operational Safety and Surveillance (23.6\%) and Trajectory Modeling and Prediction (18.5\%). These three fields collectively account for over 70\% of the total, forming the mainstream directions of ADS-B data applications. This reflects a high alignment between ADS-B data-related research and the core application scenarios of ADS-B: Operational Optimization and Management directly addresses the efficiency needs of air traffic management (ATM) systems, such as "improving airspace utilization and reducing flight delays"; meanwhile, Operational Safety and Surveillance, as well as Trajectory Modeling and Prediction, leverage the "real-time positioning and dynamic tracking" capabilities of ADS-B to serve the safety requirements of "flight conflict early warning and rapid identification of abnormal states".
 
-\textbf{Operational Safety and Surveillance} &
-\makecell[l]{
-DAA geometric models\\
-Anomaly detection (thresholds, clustering, autoencoder, GMM)\\
-Monte Carlo risk evaluation
-} &
-\textbf{Flight monitoring and safety baseline} \\
-\hline
+In contrast, the proportions of papers in the fields of Security and Cybersecurity (2.5\%), Environment and Sustainability (5.1\%), and Methodology, Simulation and Policy (5.1\%) are relatively low, collectively accounting for less than 15\%. These fields represent the directions with relatively smaller proportions in current ADS-B data application research.
 
-\textbf{Aircraft Performance and Efficiency} &
-\makecell[l]{
-Dynamic equation inversion\\
-Maximum likelihood estimation\\
-Bayesian inference\\
-Particle filtering\\
-Regression and neural networks
-} &
-\textbf{Model calibration data source} \\
-\hline
-
-\textbf{Data Engineering and Enhancement} &
-\makecell[l]{
-Kalman filtering\\
-Map-matching\\
-Multisource fusion\\
-Data indexing\\
-Generative models (TimeGAN)
-} &
-\textbf{Primary processing object} \\
-\hline
-
-\textbf{Environment and Sustainability} &
-\makecell[l]{
-Trajectory-based emission estimation\\
-Remote sensing data fusion\\
-Optimal control route planning
-} &
-\textbf{Environmental assessment input} \\
-
-\textbf{Security and Cybersecurity} &
-\makecell[l]{
-Intrusion detection (ML classifiers)\\
-Protocol vulnerability testing\\
-SDR signal analysis
-} &
-\textbf{Research target} \\
-\hline
-
-\textbf{Methodology, Simulation, and Policy} &
-\makecell[l]{
-Open-source simulation platform development\\
-Data standardization\\
-Policy and privacy analysis
-} &
-\textbf{Research infrastructure and policy object} \\
-\hline
-\end{tabular}
-\label{tab:adsb_applications}
-\end{table*}
+% TODO: \usepackage{graphicx} required
+\begin{figure}
+	\centering
+	\includegraphics[width=0.5\linewidth]{paper_piechart}
+	\caption[Figure 2]{Distribution of studies across 8 ADS-B application domains}
+	\label{fig:paperpiechart2}
+\end{figure}
 
 
  %\subsection{ADSB Data future usages}

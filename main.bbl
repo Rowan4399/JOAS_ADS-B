@@ -1,0 +1,2211 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{olive2024filtering}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=a4b583fa0e665ccfe90dcc27ff3c7bcb}{%
+           family={Olive},
+           familyi={O\bibinitperiod},
+           given={Xavier},
+           giveni={X\bibinitperiod}}}%
+        {{hash=1a1b46b50f2e881b359ab13dad386f39}{%
+           family={Krummen},
+           familyi={K\bibinitperiod},
+           given={Jan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=c38399df5235cf267b038edac6bf247e}{%
+           family={Figuet},
+           familyi={F\bibinitperiod},
+           given={Benoit},
+           giveni={B\bibinitperiod}}}%
+        {{hash=bcc366ee65ba3739047f4d11426bf380}{%
+           family={Alligier},
+           familyi={A\bibinitperiod},
+           given={Richard},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{d43a852ecb8a8989eac92b2652e37b9f}
+      \strng{fullhash}{01dcaebba7acaa3e4c050c147bf8815b}
+      \strng{fullhashraw}{01dcaebba7acaa3e4c050c147bf8815b}
+      \strng{bibnamehash}{01dcaebba7acaa3e4c050c147bf8815b}
+      \strng{authorbibnamehash}{01dcaebba7acaa3e4c050c147bf8815b}
+      \strng{authornamehash}{d43a852ecb8a8989eac92b2652e37b9f}
+      \strng{authorfullhash}{01dcaebba7acaa3e4c050c147bf8815b}
+      \strng{authorfullhashraw}{01dcaebba7acaa3e4c050c147bf8815b}
+      \field{extraname}{1}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Open Aviation Science}
+      \field{number}{2}
+      \field{title}{Filtering Techniques for ADS-B Trajectory Preprocessing}
+      \field{volume}{2}
+      \field{year}{2024}
+    \endentry
+    \entry{faa2000capstone}{report}{}{}
+      \name{author}{1}{}{%
+        {{hash=3657034355c639d6ba54b793c6e9650b}{%
+           family={{FAA, Alaskan Region, Capstone Program Management Office}},
+           familyi={F\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Federal Aviation Administration}%
+      }
+      \list{location}{1}{%
+        {Anchorage, Alaska}%
+      }
+      \strng{namehash}{3657034355c639d6ba54b793c6e9650b}
+      \strng{fullhash}{3657034355c639d6ba54b793c6e9650b}
+      \strng{fullhashraw}{3657034355c639d6ba54b793c6e9650b}
+      \strng{bibnamehash}{3657034355c639d6ba54b793c6e9650b}
+      \strng{authorbibnamehash}{3657034355c639d6ba54b793c6e9650b}
+      \strng{authornamehash}{3657034355c639d6ba54b793c6e9650b}
+      \strng{authorfullhash}{3657034355c639d6ba54b793c6e9650b}
+      \strng{authorfullhashraw}{3657034355c639d6ba54b793c6e9650b}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{3}
+      \field{title}{Capstone Program Plan Version 2.0}
+      \field{type}{techreport}
+      \field{year}{2000}
+    \endentry
+    \entry{cfr91-225}{misc}{}{}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Code of Federal Regulations, Title 14: Aeronautics and Space}
+      \field{note}{U.S. Government Publishing Office}
+      \field{title}{{14 CFR §91.225 -- Automatic Dependent Surveillance--Broadcast (ADS-B) Out Equipment and Use}}
+      \field{year}{2010}
+    \endentry
+    \entry{undertaking2009european}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=df11d1c9f154a65ec1081c7f4919871d}{%
+           family={Undertaking},
+           familyi={U\bibinitperiod},
+           given={SESAR\bibnamedelima Joint},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {SESAR Joint Undertaking Avenue de Cortenbergh}%
+      }
+      \strng{namehash}{df11d1c9f154a65ec1081c7f4919871d}
+      \strng{fullhash}{df11d1c9f154a65ec1081c7f4919871d}
+      \strng{fullhashraw}{df11d1c9f154a65ec1081c7f4919871d}
+      \strng{bibnamehash}{df11d1c9f154a65ec1081c7f4919871d}
+      \strng{authorbibnamehash}{df11d1c9f154a65ec1081c7f4919871d}
+      \strng{authornamehash}{df11d1c9f154a65ec1081c7f4919871d}
+      \strng{authorfullhash}{df11d1c9f154a65ec1081c7f4919871d}
+      \strng{authorfullhashraw}{df11d1c9f154a65ec1081c7f4919871d}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{European air traffic management master plan}
+      \field{year}{2009}
+    \endentry
+    \entry{caac2015adsb}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=94193d00553c32e03429d1dd45e6b1f2}{%
+           family={{Civil Aviation Administration of China (CAAC)}},
+           familyi={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{94193d00553c32e03429d1dd45e6b1f2}
+      \strng{fullhash}{94193d00553c32e03429d1dd45e6b1f2}
+      \strng{fullhashraw}{94193d00553c32e03429d1dd45e6b1f2}
+      \strng{bibnamehash}{94193d00553c32e03429d1dd45e6b1f2}
+      \strng{authorbibnamehash}{94193d00553c32e03429d1dd45e6b1f2}
+      \strng{authornamehash}{94193d00553c32e03429d1dd45e6b1f2}
+      \strng{authorfullhash}{94193d00553c32e03429d1dd45e6b1f2}
+      \strng{authorfullhashraw}{94193d00553c32e03429d1dd45e6b1f2}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{12}
+      \field{note}{Beijing, China. Issued December 2015}
+      \field{title}{China Civil Aviation ADS-B Implementation Plan [in Chinese]}
+      \field{year}{2015}
+    \endentry
+    \entry{melero2024satera}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=66c0e2b13120083d78ac674608c8a836}{%
+           family={Melero},
+           familyi={M\bibinitperiod},
+           given={Victor\bibnamedelima Monzonis},
+           giveni={V\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=8100659e4df735222e5548fbc9193fc8}{%
+           family={Balbastre},
+           familyi={B\bibinitperiod},
+           given={Juan\bibnamedelima V},
+           giveni={J\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=89a1d31b7202aa4b98b88a7cee3b45c5}{%
+           family={Ganau},
+           familyi={G\bibinitperiod},
+           given={Alex},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{fb99c76c0df66e6edf76ef63da9f7310}
+      \strng{fullhash}{fb99c76c0df66e6edf76ef63da9f7310}
+      \strng{fullhashraw}{fb99c76c0df66e6edf76ef63da9f7310}
+      \strng{bibnamehash}{fb99c76c0df66e6edf76ef63da9f7310}
+      \strng{authorbibnamehash}{fb99c76c0df66e6edf76ef63da9f7310}
+      \strng{authornamehash}{fb99c76c0df66e6edf76ef63da9f7310}
+      \strng{authorfullhash}{fb99c76c0df66e6edf76ef63da9f7310}
+      \strng{authorfullhashraw}{fb99c76c0df66e6edf76ef63da9f7310}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{2024 SESAR Innovation days}
+      \field{title}{SATERA Baseline: Identifying the Challenges of Space-Based Multilateration Systems}
+      \field{year}{2024}
+    \endentry
+    \entry{schafer2014bringing}{inproceedings}{}{}
+      \name{author}{5}{}{%
+        {{hash=72cbf314e53677e182692e8e1641d450}{%
+           family={Sch{"a}fer},
+           familyi={S\bibinitperiod},
+           given={Matthias},
+           giveni={M\bibinitperiod}}}%
+        {{hash=bade8eca92e6e0f62acc03aa3c6fa3d0}{%
+           family={Strohmeier},
+           familyi={S\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod}}}%
+        {{hash=6d4f48d80340f4c57d4a6c28dcde5ad2}{%
+           family={Lenders},
+           familyi={L\bibinitperiod},
+           given={Vincent},
+           giveni={V\bibinitperiod}}}%
+        {{hash=1645d8bef55e7f7b84b3ae7a9a8e3729}{%
+           family={Martinovic},
+           familyi={M\bibinitperiod},
+           given={Ivan},
+           giveni={I\bibinitperiod}}}%
+        {{hash=905d80dc7ce78040df7e9e117687222f}{%
+           family={Wilhelm},
+           familyi={W\bibinitperiod},
+           given={Matthias},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{cb423f784b1e4c2b30f59ef296a8c441}
+      \strng{fullhash}{5c82f35c0c63d6e1ab851a440103fba4}
+      \strng{fullhashraw}{5c82f35c0c63d6e1ab851a440103fba4}
+      \strng{bibnamehash}{5c82f35c0c63d6e1ab851a440103fba4}
+      \strng{authorbibnamehash}{5c82f35c0c63d6e1ab851a440103fba4}
+      \strng{authornamehash}{cb423f784b1e4c2b30f59ef296a8c441}
+      \strng{authorfullhash}{5c82f35c0c63d6e1ab851a440103fba4}
+      \strng{authorfullhashraw}{5c82f35c0c63d6e1ab851a440103fba4}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{IPSN-14 proceedings of the 13th international symposium on information processing in sensor networks}
+      \field{title}{Bringing up OpenSky: A large-scale ADS-B sensor network for research}
+      \field{year}{2014}
+      \field{pages}{83\bibrangedash 94}
+      \range{pages}{12}
+    \endentry
+    \entry{wang2021performance}{inproceedings}{}{}
+      \name{author}{4}{}{%
+        {{hash=52aebfeb848ee753fdc6baf0d7196188}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Yuejingyan},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=1f1b5a611871b013dd18b84a54bbb23f}{%
+           family={Zhao},
+           familyi={Z\bibinitperiod},
+           given={Liang},
+           giveni={L\bibinitperiod}}}%
+        {{hash=02c093b26811a74af1ad0e2c22559074}{%
+           family={Jia},
+           familyi={J\bibinitperiod},
+           given={Yuyang},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=93580824b6b06eb2965896037f2b8ac3}{%
+           family={Cai},
+           familyi={C\bibinitperiod},
+           given={Kaiquan},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{744540d3dfc4af3dc124e9f3dd2d69b1}
+      \strng{fullhash}{e4832eabd6faae30b681602e0cec96bb}
+      \strng{fullhashraw}{e4832eabd6faae30b681602e0cec96bb}
+      \strng{bibnamehash}{e4832eabd6faae30b681602e0cec96bb}
+      \strng{authorbibnamehash}{e4832eabd6faae30b681602e0cec96bb}
+      \strng{authornamehash}{744540d3dfc4af3dc124e9f3dd2d69b1}
+      \strng{authorfullhash}{e4832eabd6faae30b681602e0cec96bb}
+      \strng{authorfullhashraw}{e4832eabd6faae30b681602e0cec96bb}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2021 IEEE/AIAA 40th Digital Avionics Systems Conference (DASC)}
+      \field{title}{A Performance Learning Method for Aircraft Trajectory Modeling}
+      \field{year}{2021}
+      \field{pages}{1\bibrangedash 7}
+      \range{pages}{7}
+    \endentry
+    \entry{corrado2021clustering}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=3da78fc50a5fb2a678efc5b11c595e40}{%
+           family={Corrado},
+           familyi={C\bibinitperiod},
+           given={Samantha\bibnamedelima J.},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=ace63e3e205e40e657ca7471b36afe26}{%
+           family={Puranik},
+           familyi={P\bibinitperiod},
+           given={Tejas\bibnamedelima G.},
+           giveni={T\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=713fe519c99b64bceed78bfb12cf0e86}{%
+           family={Fischer},
+           familyi={F\bibinitperiod},
+           given={Olivia\bibnamedelima Pinon},
+           giveni={O\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=90386a8d3cf493a92714020da5adcb45}{%
+           family={Mavris},
+           familyi={M\bibinitperiod},
+           given={Dimitri\bibnamedelima N.},
+           giveni={D\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{c3a1e2b94762e85e700de5d4fa6e50d5}
+      \strng{fullhash}{966bf2d84cde611dc64fe068ceb0341a}
+      \strng{fullhashraw}{966bf2d84cde611dc64fe068ceb0341a}
+      \strng{bibnamehash}{966bf2d84cde611dc64fe068ceb0341a}
+      \strng{authorbibnamehash}{966bf2d84cde611dc64fe068ceb0341a}
+      \strng{authornamehash}{c3a1e2b94762e85e700de5d4fa6e50d5}
+      \strng{authorfullhash}{966bf2d84cde611dc64fe068ceb0341a}
+      \strng{authorfullhashraw}{966bf2d84cde611dc64fe068ceb0341a}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Transportation Research Part C: Emerging Technologies}
+      \field{title}{A Clustering-Based Quantitative Analysis of the Interdependent Relationship Between Spatial and Energy Anomalies in ADS-B Trajectory Data}
+      \field{volume}{131}
+      \field{year}{2021}
+      \field{pages}{103331}
+      \range{pages}{1}
+    \endentry
+    \entry{schlosser2024analysis}{inproceedings}{}{}
+      \name{author}{3}{}{%
+        {{hash=ab671a22d45f6459e9defabb0ec02cd3}{%
+           family={Schlosser},
+           familyi={S\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod}}}%
+        {{hash=c45730fe30670142e68f61fbc82b988f}{%
+           family={Bra{ß}el},
+           familyi={B\bibinitperiod},
+           given={Hannes},
+           giveni={H\bibinitperiod}}}%
+        {{hash=5338bbdfe5617bc4d3136b8fdcbf9f7e}{%
+           family={Fricke},
+           familyi={F\bibinitperiod},
+           given={Hartmut},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{df852708009a584d4c8f6767436fad58}
+      \strng{fullhash}{df852708009a584d4c8f6767436fad58}
+      \strng{fullhashraw}{df852708009a584d4c8f6767436fad58}
+      \strng{bibnamehash}{df852708009a584d4c8f6767436fad58}
+      \strng{authorbibnamehash}{df852708009a584d4c8f6767436fad58}
+      \strng{authornamehash}{df852708009a584d4c8f6767436fad58}
+      \strng{authorfullhash}{df852708009a584d4c8f6767436fad58}
+      \strng{authorfullhashraw}{df852708009a584d4c8f6767436fad58}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 11th International Conference on Research in Air Transportation (ICRAT 2024), Singapore}
+      \field{title}{Analysis of Aircraft Ground Trajectories: Map-Matching with Open Source Data for Modeling Safety-Driven Applications}
+      \field{year}{2024}
+    \endentry
+    \entry{guleriamachine}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{3}{}{%
+        {{hash=6cfcd6097253d53d08481e936a475970}{%
+           family={Guleria},
+           familyi={G\bibinitperiod},
+           given={Yash},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=f0e5ba9f4b77889a3e23841edd27586a}{%
+           family={Alam},
+           familyi={A\bibinitperiod},
+           given={Sameer},
+           giveni={S\bibinitperiod}}}%
+        {{hash=f0dfdf29b8d36ca977a2ac0af203e241}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Max\bibnamedelima Z.},
+           giveni={M\bibinitperiod\bibinitdelim Z\bibinitperiod}}}%
+      }
+      \strng{namehash}{e097a09fdb692f33538975d53b8a1e4f}
+      \strng{fullhash}{e097a09fdb692f33538975d53b8a1e4f}
+      \strng{fullhashraw}{e097a09fdb692f33538975d53b8a1e4f}
+      \strng{bibnamehash}{e097a09fdb692f33538975d53b8a1e4f}
+      \strng{authorbibnamehash}{e097a09fdb692f33538975d53b8a1e4f}
+      \strng{authornamehash}{e097a09fdb692f33538975d53b8a1e4f}
+      \strng{authorfullhash}{e097a09fdb692f33538975d53b8a1e4f}
+      \strng{authorfullhashraw}{e097a09fdb692f33538975d53b8a1e4f}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Preprint}
+      \field{note}{Manuscript status not specified}
+      \field{title}{A Machine Learned Traffic Flow Coordination Framework for Flow-Centric Airspace}
+    \endentry
+    \entry{noh2018aviation}{inproceedings}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{hash=c9f3ffbed2f487601fe28f6f3b9073e6}{%
+           family={Mohd\bibnamedelima Noh},
+           familyi={M\bibinitperiod\bibinitdelim N\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=869ed15975a7831387df5c76f4f47849}{%
+           family={Rodrigo},
+           familyi={R\bibinitperiod},
+           given={G.\bibnamedelimi A.},
+           giveni={G\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=b12d79d76fe91266f2d37b0df7f1c8f7}{%
+           family={Abdul\bibnamedelima Rahman},
+           familyi={A\bibinitperiod\bibinitdelim R\bibinitperiod},
+           given={N.\bibnamedelimi A.},
+           giveni={N\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=e6dfa021ab2b30eb31c2437668d0d1c0}{%
+           family={Ismail},
+           familyi={I\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=b1cb4e60c59d21dabccd3e72d6ae4d55}{%
+           family={Shafie},
+           familyi={S\bibinitperiod},
+           given={M.\bibnamedelimi A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=5bd971eb259e258b7bfed0cc41a3109f}{%
+           family={Zainal\bibnamedelima Abidin},
+           familyi={Z\bibinitperiod\bibinitdelim A\bibinitperiod},
+           given={M.\bibnamedelimi W.},
+           giveni={M\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=db168c6b9d25ab55f29df5bee5e9fb53}{%
+           family={Ahmad},
+           familyi={A\bibinitperiod},
+           given={A.\bibnamedelimi A.},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=92ca54151598290f0eae06dcf1e56bc1}{%
+           family={Basit},
+           familyi={B\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=2934793d0840d6fd7d4902163f676fe0}{%
+           family={Khalid},
+           familyi={K\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=af245ec4d67bd0a77b199eed80d8624e}{%
+           family={Yahaya},
+           familyi={Y\bibinitperiod},
+           given={N.\bibnamedelimi H.\bibnamedelimi R.},
+           giveni={N\bibinitperiod\bibinitdelim H\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {IOP Publishing}%
+      }
+      \strng{namehash}{7109688e005682499fcdb7503a345a82}
+      \strng{fullhash}{41728d34c6583d199e586c2141fd0bcc}
+      \strng{fullhashraw}{41728d34c6583d199e586c2141fd0bcc}
+      \strng{bibnamehash}{41728d34c6583d199e586c2141fd0bcc}
+      \strng{authorbibnamehash}{41728d34c6583d199e586c2141fd0bcc}
+      \strng{authornamehash}{7109688e005682499fcdb7503a345a82}
+      \strng{authorfullhash}{41728d34c6583d199e586c2141fd0bcc}
+      \strng{authorfullhashraw}{41728d34c6583d199e586c2141fd0bcc}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{IOP Conference Series: Materials Science and Engineering}
+      \field{number}{1}
+      \field{title}{Aviation Gas Turbine Engine Emissions: Drop-In Alternative Fuel and Its Challenges}
+      \field{volume}{370}
+      \field{year}{2018}
+      \field{pages}{012036}
+      \range{pages}{1}
+    \endentry
+    \entry{roosenbrand2023contrail}{inproceedings}{}{}
+      \name{author}{3}{}{%
+        {{hash=93b8098af85eeeaeb803204fe5b90fa6}{%
+           family={Roosenbrand},
+           familyi={R\bibinitperiod},
+           given={Esther},
+           giveni={E\bibinitperiod}}}%
+        {{hash=1143e2165747efb25d0b6194fdd45826}{%
+           family={Sun},
+           familyi={S\bibinitperiod},
+           given={Junzi},
+           giveni={J\bibinitperiod}}}%
+        {{hash=7ea06db347006f511581aa6aaf86b804}{%
+           family={Hoekstra},
+           familyi={H\bibinitperiod},
+           given={Jacco},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{76c61e66a79bf461b41cc7b798847896}
+      \strng{fullhash}{76c61e66a79bf461b41cc7b798847896}
+      \strng{fullhashraw}{76c61e66a79bf461b41cc7b798847896}
+      \strng{bibnamehash}{76c61e66a79bf461b41cc7b798847896}
+      \strng{authorbibnamehash}{76c61e66a79bf461b41cc7b798847896}
+      \strng{authornamehash}{76c61e66a79bf461b41cc7b798847896}
+      \strng{authorfullhash}{76c61e66a79bf461b41cc7b798847896}
+      \strng{authorfullhashraw}{76c61e66a79bf461b41cc7b798847896}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 13th SESAR Innovation Days, Sevilla, Spain}
+      \field{title}{Contrail Altitude Estimation Based on Shadows Detected in Landsat Imagery}
+      \field{year}{2023}
+    \endentry
+    \entry{icao_1993}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=24fce4ebdfd823f678dc54f75aee3aa5}{%
+           family={{Internation Civil Aviation Organization}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Montreal}%
+      }
+      \list{publisher}{1}{%
+        {ICAO}%
+      }
+      \strng{namehash}{24fce4ebdfd823f678dc54f75aee3aa5}
+      \strng{fullhash}{24fce4ebdfd823f678dc54f75aee3aa5}
+      \strng{fullhashraw}{24fce4ebdfd823f678dc54f75aee3aa5}
+      \strng{bibnamehash}{24fce4ebdfd823f678dc54f75aee3aa5}
+      \strng{authorbibnamehash}{24fce4ebdfd823f678dc54f75aee3aa5}
+      \strng{authornamehash}{24fce4ebdfd823f678dc54f75aee3aa5}
+      \strng{authorfullhash}{24fce4ebdfd823f678dc54f75aee3aa5}
+      \strng{authorfullhashraw}{24fce4ebdfd823f678dc54f75aee3aa5}
+      \field{extraname}{1}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Ref. LE 4/19.4 - 93/68}
+      \field{title}{Destruction of Korean Air Lines Boeing 747 on 31 August 1983}
+      \field{year}{1993}
+    \endentry
+    \entry{RCTA_DO-212}{standard}{}{}
+      \name{author}{1}{}{%
+        {{hash=1cf9427f890ac7e885f68889399dee9c}{%
+           family={{RCTA}},
+           familyi={R\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Washington, DC}%
+      }
+      \list{publisher}{1}{%
+        {RCTA}%
+      }
+      \strng{namehash}{1cf9427f890ac7e885f68889399dee9c}
+      \strng{fullhash}{1cf9427f890ac7e885f68889399dee9c}
+      \strng{fullhashraw}{1cf9427f890ac7e885f68889399dee9c}
+      \strng{bibnamehash}{1cf9427f890ac7e885f68889399dee9c}
+      \strng{authorbibnamehash}{1cf9427f890ac7e885f68889399dee9c}
+      \strng{authornamehash}{1cf9427f890ac7e885f68889399dee9c}
+      \strng{authorfullhash}{1cf9427f890ac7e885f68889399dee9c}
+      \strng{authorfullhashraw}{1cf9427f890ac7e885f68889399dee9c}
+      \field{extraname}{1}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{number}{DO-212}
+      \field{title}{Minimum Operational Performance Standards for Airborne Automatic Dependent Surveillance (ADS) Equipment}
+      \field{year}{1992}
+    \endentry
+    \entry{RCTA_DO-242}{standard}{}{}
+      \name{author}{1}{}{%
+        {{hash=1cf9427f890ac7e885f68889399dee9c}{%
+           family={{RCTA}},
+           familyi={R\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Washington, DC}%
+      }
+      \list{publisher}{1}{%
+        {RCTA}%
+      }
+      \strng{namehash}{1cf9427f890ac7e885f68889399dee9c}
+      \strng{fullhash}{1cf9427f890ac7e885f68889399dee9c}
+      \strng{fullhashraw}{1cf9427f890ac7e885f68889399dee9c}
+      \strng{bibnamehash}{1cf9427f890ac7e885f68889399dee9c}
+      \strng{authorbibnamehash}{1cf9427f890ac7e885f68889399dee9c}
+      \strng{authornamehash}{1cf9427f890ac7e885f68889399dee9c}
+      \strng{authorfullhash}{1cf9427f890ac7e885f68889399dee9c}
+      \strng{authorfullhashraw}{1cf9427f890ac7e885f68889399dee9c}
+      \field{extraname}{2}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{number}{DO-242}
+      \field{title}{Minimum Aviation System Performance Standards for Automatic Dependent Surveillance Broadcast (ADS-B)}
+      \field{year}{1998}
+    \endentry
+    \entry{icao_2003}{inproceedings}{}{}
+      \name{author}{1}{}{%
+        {{hash=24fce4ebdfd823f678dc54f75aee3aa5}{%
+           family={{Internation Civil Aviation Organization}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Montreal}%
+      }
+      \list{publisher}{1}{%
+        {ICAO}%
+      }
+      \strng{namehash}{24fce4ebdfd823f678dc54f75aee3aa5}
+      \strng{fullhash}{24fce4ebdfd823f678dc54f75aee3aa5}
+      \strng{fullhashraw}{24fce4ebdfd823f678dc54f75aee3aa5}
+      \strng{bibnamehash}{24fce4ebdfd823f678dc54f75aee3aa5}
+      \strng{authorbibnamehash}{24fce4ebdfd823f678dc54f75aee3aa5}
+      \strng{authornamehash}{24fce4ebdfd823f678dc54f75aee3aa5}
+      \strng{authorfullhash}{24fce4ebdfd823f678dc54f75aee3aa5}
+      \strng{authorfullhashraw}{24fce4ebdfd823f678dc54f75aee3aa5}
+      \field{extraname}{2}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Eleventh Air Navigation Conference}
+      \field{number}{AN-Conf/11-WP/190}
+      \field{title}{Eleventh Air Navigation Conference}
+      \field{year}{2003}
+    \endentry
+    \entry{casa2010cao20-18}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=b4b0ac80c7741b9695a63f881d7c55d2}{%
+           family={{Civil Aviation Safety Authority (CASA)}},
+           familyi={C\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Canberra, Australia}%
+      }
+      \strng{namehash}{b4b0ac80c7741b9695a63f881d7c55d2}
+      \strng{fullhash}{b4b0ac80c7741b9695a63f881d7c55d2}
+      \strng{fullhashraw}{b4b0ac80c7741b9695a63f881d7c55d2}
+      \strng{bibnamehash}{b4b0ac80c7741b9695a63f881d7c55d2}
+      \strng{authorbibnamehash}{b4b0ac80c7741b9695a63f881d7c55d2}
+      \strng{authornamehash}{b4b0ac80c7741b9695a63f881d7c55d2}
+      \strng{authorfullhash}{b4b0ac80c7741b9695a63f881d7c55d2}
+      \strng{authorfullhashraw}{b4b0ac80c7741b9695a63f881d7c55d2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Compilation prepared by the Legislative Drafting Branch, Legal Services Division}
+      \field{month}{5}
+      \field{note}{Available at: \url{https://www.legislation.gov.au/Series/F2005B01059}}
+      \field{title}{Civil Aviation Order 20.18 (as amended): Aircraft Equipment -- Basic Operational Requirements}
+      \field{year}{2010}
+    \endentry
+    \entry{xuhao2021trajectory}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=b1ff414a7806727270b06682346c6675}{%
+           family={Xuhao},
+           familyi={X\bibinitperiod},
+           given={Gui},
+           giveni={G\bibinitperiod}}}%
+        {{hash=202bb73040551bb4f24d5490e5877d39}{%
+           family={Junfeng},
+           familyi={J\bibinitperiod},
+           given={Zhang},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=80801aadcd24d803dad101566c530c3a}{%
+           family={Zihan},
+           familyi={Z\bibinitperiod},
+           given={Peng},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {BIAI}%
+      }
+      \strng{namehash}{050aec0db1aeea75af53f9129541a2bb}
+      \strng{fullhash}{050aec0db1aeea75af53f9129541a2bb}
+      \strng{fullhashraw}{050aec0db1aeea75af53f9129541a2bb}
+      \strng{bibnamehash}{050aec0db1aeea75af53f9129541a2bb}
+      \strng{authorbibnamehash}{050aec0db1aeea75af53f9129541a2bb}
+      \strng{authornamehash}{050aec0db1aeea75af53f9129541a2bb}
+      \strng{authorfullhash}{050aec0db1aeea75af53f9129541a2bb}
+      \strng{authorfullhashraw}{050aec0db1aeea75af53f9129541a2bb}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Systems Engineering and Electronics}
+      \field{number}{2}
+      \field{title}{Trajectory clustering for arrival aircraft via new trajectory representation}
+      \field{volume}{32}
+      \field{year}{2021}
+      \field{pages}{473\bibrangedash 486}
+      \range{pages}{14}
+    \endentry
+    \entry{wang2017short}{inproceedings}{}{}
+      \name{author}{3}{}{%
+        {{hash=c26473050948482325f4505e9169296a}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Zhengyi},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=f4a4c13bf2131f7522bfb172c3bd0747}{%
+           family={Liang},
+           familyi={L\bibinitperiod},
+           given={Man},
+           giveni={M\bibinitperiod}}}%
+        {{hash=724f19394ff905be4ed7b245765f1656}{%
+           family={Delahaye},
+           familyi={D\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{bc5c6d5307d00c7217d2dceed95097c4}
+      \strng{fullhash}{bc5c6d5307d00c7217d2dceed95097c4}
+      \strng{fullhashraw}{bc5c6d5307d00c7217d2dceed95097c4}
+      \strng{bibnamehash}{bc5c6d5307d00c7217d2dceed95097c4}
+      \strng{authorbibnamehash}{bc5c6d5307d00c7217d2dceed95097c4}
+      \strng{authornamehash}{bc5c6d5307d00c7217d2dceed95097c4}
+      \strng{authorfullhash}{bc5c6d5307d00c7217d2dceed95097c4}
+      \strng{authorfullhashraw}{bc5c6d5307d00c7217d2dceed95097c4}
+      \field{extraname}{1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{7th SESAR Innovation Days (SID 2017)}
+      \field{title}{Short-term 4D Trajectory Prediction Using Machine Learning Methods}
+      \field{year}{2017}
+    \endentry
+    \entry{wang2018hybrid}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=c26473050948482325f4505e9169296a}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Zhengyi},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=f4a4c13bf2131f7522bfb172c3bd0747}{%
+           family={Liang},
+           familyi={L\bibinitperiod},
+           given={Man},
+           giveni={M\bibinitperiod}}}%
+        {{hash=724f19394ff905be4ed7b245765f1656}{%
+           family={Delahaye},
+           familyi={D\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{bc5c6d5307d00c7217d2dceed95097c4}
+      \strng{fullhash}{bc5c6d5307d00c7217d2dceed95097c4}
+      \strng{fullhashraw}{bc5c6d5307d00c7217d2dceed95097c4}
+      \strng{bibnamehash}{bc5c6d5307d00c7217d2dceed95097c4}
+      \strng{authorbibnamehash}{bc5c6d5307d00c7217d2dceed95097c4}
+      \strng{authornamehash}{bc5c6d5307d00c7217d2dceed95097c4}
+      \strng{authorfullhash}{bc5c6d5307d00c7217d2dceed95097c4}
+      \strng{authorfullhashraw}{bc5c6d5307d00c7217d2dceed95097c4}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Transportation Research Part C: Emerging Technologies}
+      \field{title}{A hybrid machine learning model for short-term estimated time of arrival prediction in terminal manoeuvring area}
+      \field{volume}{95}
+      \field{year}{2018}
+      \field{pages}{280\bibrangedash 294}
+      \range{pages}{15}
+    \endentry
+    \entry{basora2018occupancy}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=0b0338a1f09220e37e4ffc33341e880a}{%
+           family={Basora},
+           familyi={B\bibinitperiod},
+           given={Luis},
+           giveni={L\bibinitperiod}}}%
+        {{hash=db43d55b165d2ab4b31479845afdd0a7}{%
+           family={Courchelle},
+           familyi={C\bibinitperiod},
+           given={Valentin},
+           giveni={V\bibinitperiod}}}%
+        {{hash=1870382fba301e1994990775582ea3cc}{%
+           family={Bedouet},
+           familyi={B\bibinitperiod},
+           given={Judicaël},
+           giveni={J\bibinitperiod}}}%
+        {{hash=905a51800d5e498be8ed2e351681ab72}{%
+           family={Dubot},
+           familyi={D\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{14980b753adb8fddc2a7681d6831ff0f}
+      \strng{fullhash}{5001fb14fec1ff40b7f1b0bfd9121094}
+      \strng{fullhashraw}{5001fb14fec1ff40b7f1b0bfd9121094}
+      \strng{bibnamehash}{5001fb14fec1ff40b7f1b0bfd9121094}
+      \strng{authorbibnamehash}{5001fb14fec1ff40b7f1b0bfd9121094}
+      \strng{authornamehash}{14980b753adb8fddc2a7681d6831ff0f}
+      \strng{authorfullhash}{5001fb14fec1ff40b7f1b0bfd9121094}
+      \strng{authorfullhashraw}{5001fb14fec1ff40b7f1b0bfd9121094}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the 8th SESAR Innovation Days, Salzburg, Austria}
+      \field{title}{Occupancy peak estimation from sector geometry and traffic flow data}
+      \field{year}{2018}
+      \field{pages}{3\bibrangedash 7}
+      \range{pages}{5}
+    \endentry
+    \entry{delahaye2022air}{inproceedings}{}{}
+      \name{author}{4}{}{%
+        {{hash=724f19394ff905be4ed7b245765f1656}{%
+           family={Delahaye},
+           familyi={D\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+        {{hash=5617a9bdd27cc4846d9d7384529944f4}{%
+           family={Ma},
+           familyi={M\bibinitperiod},
+           given={Chunyao},
+           giveni={C\bibinitperiod}}}%
+        {{hash=f0e5ba9f4b77889a3e23841edd27586a}{%
+           family={Alam},
+           familyi={A\bibinitperiod},
+           given={Sameer},
+           giveni={S\bibinitperiod}}}%
+        {{hash=0b3e2e0da9630bde03b20096a87d5d2b}{%
+           family={Cai},
+           familyi={C\bibinitperiod},
+           given={Qing},
+           giveni={Q\bibinitperiod}}}%
+      }
+      \strng{namehash}{ec4b7538e78ed914384001d2de007530}
+      \strng{fullhash}{15fc3c353b45c655b602c5b75aa71431}
+      \strng{fullhashraw}{15fc3c353b45c655b602c5b75aa71431}
+      \strng{bibnamehash}{15fc3c353b45c655b602c5b75aa71431}
+      \strng{authorbibnamehash}{15fc3c353b45c655b602c5b75aa71431}
+      \strng{authornamehash}{ec4b7538e78ed914384001d2de007530}
+      \strng{authorfullhash}{15fc3c353b45c655b602c5b75aa71431}
+      \strng{authorfullhashraw}{15fc3c353b45c655b602c5b75aa71431}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{SESAR Innovation Days}
+      \field{title}{Air traffic flow representation and prediction using transformer in flow-centric airspace}
+      \field{year}{2022}
+    \endentry
+    \entry{bonifazi2021modeling}{inproceedings}{}{}
+      \name{author}{4}{}{%
+        {{hash=6f095329e226a6797745d9710900e37c}{%
+           family={Bonifazi},
+           familyi={B\bibinitperiod},
+           given={Alberto},
+           giveni={A\bibinitperiod}}}%
+        {{hash=1143e2165747efb25d0b6194fdd45826}{%
+           family={Sun},
+           familyi={S\bibinitperiod},
+           given={Junzi},
+           giveni={J\bibinitperiod}}}%
+        {{hash=1de97b08b1b25f49ce00cfbc0531439c}{%
+           family={Baren},
+           familyi={B\bibinitperiod},
+           given={Gerben},
+           giveni={G\bibinitperiod},
+           prefix={van},
+           prefixi={v\bibinitperiod}}}%
+        {{hash=7ea06db347006f511581aa6aaf86b804}{%
+           family={Hoekstra},
+           familyi={H\bibinitperiod},
+           given={Jacco},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{fd5e7e88dce461878ca4b1b3f39ed046}
+      \strng{fullhash}{aa81e6ad5bae9786370bcd59cc56668c}
+      \strng{fullhashraw}{aa81e6ad5bae9786370bcd59cc56668c}
+      \strng{bibnamehash}{aa81e6ad5bae9786370bcd59cc56668c}
+      \strng{authorbibnamehash}{aa81e6ad5bae9786370bcd59cc56668c}
+      \strng{authornamehash}{fd5e7e88dce461878ca4b1b3f39ed046}
+      \strng{authorfullhash}{aa81e6ad5bae9786370bcd59cc56668c}
+      \strng{authorfullhashraw}{aa81e6ad5bae9786370bcd59cc56668c}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the Fourteenth USA/Europe Air Traffic Management Research and Development Seminar (ATM2021), Virtual Event}
+      \field{title}{Modeling and Detecting Anomalous Safety Events in Approach Flights Using ADS-B Data}
+      \field{year}{2021}
+      \field{pages}{20\bibrangedash 23}
+      \range{pages}{4}
+    \endentry
+    \entry{rorie2024detect}{inproceedings}{}{}
+      \name{author}{2}{}{%
+        {{hash=48afa6a0d7c0f7763bb9df95dc93438e}{%
+           family={Rorie},
+           familyi={R\bibinitperiod},
+           given={R\bibnamedelima Conrad},
+           giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=d906cc4a8e72903682b1489e1d73cded}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={Casey\bibnamedelima L},
+           giveni={C\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{2fd494b240af4b81cdd8347dbee10529}
+      \strng{fullhash}{2fd494b240af4b81cdd8347dbee10529}
+      \strng{fullhashraw}{2fd494b240af4b81cdd8347dbee10529}
+      \strng{bibnamehash}{2fd494b240af4b81cdd8347dbee10529}
+      \strng{authorbibnamehash}{2fd494b240af4b81cdd8347dbee10529}
+      \strng{authornamehash}{2fd494b240af4b81cdd8347dbee10529}
+      \strng{authorfullhash}{2fd494b240af4b81cdd8347dbee10529}
+      \strng{authorfullhashraw}{2fd494b240af4b81cdd8347dbee10529}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2024 AIAA DATC/IEEE 43rd Digital Avionics Systems Conference (DASC)}
+      \field{title}{Detect and Avoid and Collision Avoidance Flight Test Results with ACAS Xr}
+      \field{year}{2024}
+      \field{pages}{01\bibrangedash 10}
+      \range{pages}{10}
+    \endentry
+    \entry{zhang2024study}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=f4db9373a5ba3555eac8a45bcd339479}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Yi},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=bb35a9273880b1eef455ba90b169df8c}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Sheng},
+           giveni={S\bibinitperiod}}}%
+        {{hash=21fa47d4b06e072779a0215c83337574}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Yicheng},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=482f37caedd1d806ba9cf7b96a1ff579}{%
+           family={Yin},
+           familyi={Y\bibinitperiod},
+           given={Yifang},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{efd86db55840b987892abaaf55bb2ea2}
+      \strng{fullhash}{41fef9de194cc875438514281467538e}
+      \strng{fullhashraw}{41fef9de194cc875438514281467538e}
+      \strng{bibnamehash}{41fef9de194cc875438514281467538e}
+      \strng{authorbibnamehash}{41fef9de194cc875438514281467538e}
+      \strng{authornamehash}{efd86db55840b987892abaaf55bb2ea2}
+      \strng{authorfullhash}{41fef9de194cc875438514281467538e}
+      \strng{authorfullhashraw}{41fef9de194cc875438514281467538e}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Intelligent Transportation Systems}
+      \field{number}{10}
+      \field{title}{A study of TMA aircraft conflict-free routing and operation: With mixed integer linear programming, multi-agent path finding, and metaheuristic-based neighborhood search}
+      \field{volume}{25}
+      \field{year}{2024}
+      \field{pages}{13976\bibrangedash 13990}
+      \range{pages}{15}
+    \endentry
+    \entry{bao2024exploring}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=383cc8c5920b0d3a042c117dce411b0c}{%
+           family={Bao},
+           familyi={B\bibinitperiod},
+           given={Jie},
+           giveni={J\bibinitperiod}}}%
+        {{hash=fce7c579a8ad6ef8322ba1a352f50583}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Zijie},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=38783f078bc368ac9a51984011ae105d}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Junfeng},
+           giveni={J\bibinitperiod}}}%
+        {{hash=e2f78aa81f2821dc09c8b3cea8bea883}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Yixuan},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=3f0a76af5e73c721aea4f92dde2590c9}{%
+           family={Gui},
+           familyi={G\bibinitperiod},
+           given={Xuhao},
+           giveni={X\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{30db89636de562668e8ef4fe329407cc}
+      \strng{fullhash}{125dd3a70b666442566e71587fe60f04}
+      \strng{fullhashraw}{125dd3a70b666442566e71587fe60f04}
+      \strng{bibnamehash}{125dd3a70b666442566e71587fe60f04}
+      \strng{authorbibnamehash}{125dd3a70b666442566e71587fe60f04}
+      \strng{authornamehash}{30db89636de562668e8ef4fe329407cc}
+      \strng{authorfullhash}{125dd3a70b666442566e71587fe60f04}
+      \strng{authorfullhashraw}{125dd3a70b666442566e71587fe60f04}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Air Transport Management}
+      \field{title}{Exploring the conflict risk characteristics of air weaving sections in Metroplex terminal areas with flight trajectory data and adaptive graph spatial-temporal transformer}
+      \field{volume}{120}
+      \field{year}{2024}
+      \field{pages}{102667}
+      \range{pages}{1}
+    \endentry
+    \entry{sun2018aircraft}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=1143e2165747efb25d0b6194fdd45826}{%
+           family={Sun},
+           familyi={S\bibinitperiod},
+           given={Junzi},
+           giveni={J\bibinitperiod}}}%
+        {{hash=b6dabe84a71443927377b484380b5f1e}{%
+           family={Hoekstra},
+           familyi={H\bibinitperiod},
+           given={Jacco\bibnamedelima M},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=56366204c57d12a8481b3f8f052fe5b1}{%
+           family={Ellerbroek},
+           familyi={E\bibinitperiod},
+           given={Joost},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {University of Salzburg Salzburg, Austria}%
+      }
+      \strng{namehash}{13e2184cd04a352a4bd574b8ba4453aa}
+      \strng{fullhash}{13e2184cd04a352a4bd574b8ba4453aa}
+      \strng{fullhashraw}{13e2184cd04a352a4bd574b8ba4453aa}
+      \strng{bibnamehash}{13e2184cd04a352a4bd574b8ba4453aa}
+      \strng{authorbibnamehash}{13e2184cd04a352a4bd574b8ba4453aa}
+      \strng{authornamehash}{13e2184cd04a352a4bd574b8ba4453aa}
+      \strng{authorfullhash}{13e2184cd04a352a4bd574b8ba4453aa}
+      \strng{authorfullhashraw}{13e2184cd04a352a4bd574b8ba4453aa}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Eighth SESAR innovation days}
+      \field{title}{Aircraft drag polar estimation based on a stochastic hierarchical model}
+      \field{year}{2018}
+      \field{pages}{1\bibrangedash 8}
+      \range{pages}{8}
+    \endentry
+    \entry{schultz2022data}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=6f171fa33cab356311c58fb82ea8a5bb}{%
+           family={Schultz},
+           familyi={S\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=21fc2b00da5fb75efc44f933918901d6}{%
+           family={Rosenow},
+           familyi={R\bibinitperiod},
+           given={Judith},
+           giveni={J\bibinitperiod}}}%
+        {{hash=a4b583fa0e665ccfe90dcc27ff3c7bcb}{%
+           family={Olive},
+           familyi={O\bibinitperiod},
+           given={Xavier},
+           giveni={X\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{fe8e242463540991831279eebeffdc08}
+      \strng{fullhash}{fe8e242463540991831279eebeffdc08}
+      \strng{fullhashraw}{fe8e242463540991831279eebeffdc08}
+      \strng{bibnamehash}{fe8e242463540991831279eebeffdc08}
+      \strng{authorbibnamehash}{fe8e242463540991831279eebeffdc08}
+      \strng{authornamehash}{fe8e242463540991831279eebeffdc08}
+      \strng{authorfullhash}{fe8e242463540991831279eebeffdc08}
+      \strng{authorfullhashraw}{fe8e242463540991831279eebeffdc08}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Air Transport Management}
+      \field{title}{Data-driven airport management enabled by operational milestones derived from ADS-B messages}
+      \field{volume}{99}
+      \field{year}{2022}
+      \field{pages}{102164}
+      \range{pages}{1}
+    \endentry
+    \entry{alligier2020predictive}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=bcc366ee65ba3739047f4d11426bf380}{%
+           family={Alligier},
+           familyi={A\bibinitperiod},
+           given={Richard},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {American Institute of Aeronautics}%
+        {Astronautics}%
+      }
+      \strng{namehash}{bcc366ee65ba3739047f4d11426bf380}
+      \strng{fullhash}{bcc366ee65ba3739047f4d11426bf380}
+      \strng{fullhashraw}{bcc366ee65ba3739047f4d11426bf380}
+      \strng{bibnamehash}{bcc366ee65ba3739047f4d11426bf380}
+      \strng{authorbibnamehash}{bcc366ee65ba3739047f4d11426bf380}
+      \strng{authornamehash}{bcc366ee65ba3739047f4d11426bf380}
+      \strng{authorfullhash}{bcc366ee65ba3739047f4d11426bf380}
+      \strng{authorfullhashraw}{bcc366ee65ba3739047f4d11426bf380}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Air Transportation}
+      \field{number}{3}
+      \field{title}{Predictive distribution of mass and speed profile to improve aircraft climb prediction}
+      \field{volume}{28}
+      \field{year}{2020}
+      \field{pages}{114\bibrangedash 123}
+      \range{pages}{10}
+    \endentry
+    \entry{tabassum2017ads}{inproceedings}{}{}
+      \name{author}{3}{}{%
+        {{hash=30015f1bb1e06c3897919e4d54b52b19}{%
+           family={Tabassum},
+           familyi={T\bibinitperiod},
+           given={Asma},
+           giveni={A\bibinitperiod}}}%
+        {{hash=e90834ca7e030bbb0a69d9eb9bdc5c64}{%
+           family={Allen},
+           familyi={A\bibinitperiod},
+           given={Nicholas},
+           giveni={N\bibinitperiod}}}%
+        {{hash=14c23991c23b855fa8e2e80290b00ae5}{%
+           family={Semke},
+           familyi={S\bibinitperiod},
+           given={William},
+           giveni={W\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{b48f9e4ecfdd73f65a0e35b6a9a82778}
+      \strng{fullhash}{b48f9e4ecfdd73f65a0e35b6a9a82778}
+      \strng{fullhashraw}{b48f9e4ecfdd73f65a0e35b6a9a82778}
+      \strng{bibnamehash}{b48f9e4ecfdd73f65a0e35b6a9a82778}
+      \strng{authorbibnamehash}{b48f9e4ecfdd73f65a0e35b6a9a82778}
+      \strng{authornamehash}{b48f9e4ecfdd73f65a0e35b6a9a82778}
+      \strng{authorfullhash}{b48f9e4ecfdd73f65a0e35b6a9a82778}
+      \strng{authorfullhashraw}{b48f9e4ecfdd73f65a0e35b6a9a82778}
+      \field{extraname}{1}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2017 IEEE/AIAA 36th Digital Avionics Systems Conference (DASC)}
+      \field{title}{ADS-B message contents evaluation and breakdown of anomalies}
+      \field{year}{2017}
+      \field{pages}{1\bibrangedash 8}
+      \range{pages}{8}
+    \endentry
+    \entry{wandelt2018ads}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=21820075e8b6ceac6711cb274863fe40}{%
+           family={Wandelt},
+           familyi={W\bibinitperiod},
+           given={Sebastian},
+           giveni={S\bibinitperiod}}}%
+        {{hash=978071e2673de1272972cd06613fa469}{%
+           family={Sun},
+           familyi={S\bibinitperiod},
+           given={Xiaoqian},
+           giveni={X\bibinitperiod}}}%
+        {{hash=5338bbdfe5617bc4d3136b8fdcbf9f7e}{%
+           family={Fricke},
+           familyi={F\bibinitperiod},
+           given={Hartmut},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{35d65aa696207850a74e74ab89be2213}
+      \strng{fullhash}{35d65aa696207850a74e74ab89be2213}
+      \strng{fullhashraw}{35d65aa696207850a74e74ab89be2213}
+      \strng{bibnamehash}{35d65aa696207850a74e74ab89be2213}
+      \strng{authorbibnamehash}{35d65aa696207850a74e74ab89be2213}
+      \strng{authornamehash}{35d65aa696207850a74e74ab89be2213}
+      \strng{authorfullhash}{35d65aa696207850a74e74ab89be2213}
+      \strng{authorfullhashraw}{35d65aa696207850a74e74ab89be2213}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Intelligent Transportation Systems}
+      \field{number}{12}
+      \field{title}{Ads-bi: Compressed indexing of ads-b data}
+      \field{volume}{19}
+      \field{year}{2018}
+      \field{pages}{3795\bibrangedash 3806}
+      \range{pages}{12}
+    \endentry
+    \entry{spinielli2017initial}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=65ec81290e424ae0f32eea075b502e2b}{%
+           family={Spinielli},
+           familyi={S\bibinitperiod},
+           given={Enrico},
+           giveni={E\bibinitperiod}}}%
+        {{hash=8d693621946e8bece7f1a8cec4ff81f2}{%
+           family={Koelle},
+           familyi={K\bibinitperiod},
+           given={Rainer},
+           giveni={R\bibinitperiod}}}%
+        {{hash=06e661e6205015680c6d1ae20209b932}{%
+           family={Zanin},
+           familyi={Z\bibinitperiod},
+           given={Massimiliano},
+           giveni={M\bibinitperiod}}}%
+        {{hash=1c20c8c9464448f2f923686bf1e3dc41}{%
+           family={Belkoura},
+           familyi={B\bibinitperiod},
+           given={Seddik},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{8ef6c9db6ec52ee77ebf00f260d8c2f0}
+      \strng{fullhash}{7b2758eb051b8fdc4255404466ef93bf}
+      \strng{fullhashraw}{7b2758eb051b8fdc4255404466ef93bf}
+      \strng{bibnamehash}{7b2758eb051b8fdc4255404466ef93bf}
+      \strng{authorbibnamehash}{7b2758eb051b8fdc4255404466ef93bf}
+      \strng{authornamehash}{8ef6c9db6ec52ee77ebf00f260d8c2f0}
+      \strng{authorfullhash}{7b2758eb051b8fdc4255404466ef93bf}
+      \strng{authorfullhashraw}{7b2758eb051b8fdc4255404466ef93bf}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the 7th SESAR innovation days. Belgrade (Serbia)}
+      \field{title}{Initial implementation of reference trajectories for performance review}
+      \field{year}{2017}
+    \endentry
+    \entry{sun2023evaluating}{inproceedings}{}{}
+      \name{author}{4}{}{%
+        {{hash=1143e2165747efb25d0b6194fdd45826}{%
+           family={Sun},
+           familyi={S\bibinitperiod},
+           given={Junzi},
+           giveni={J\bibinitperiod}}}%
+        {{hash=54c02acbc7222cf977ce360be6c80596}{%
+           family={Tassanbi},
+           familyi={T\bibinitperiod},
+           given={Aidana},
+           giveni={A\bibinitperiod}}}%
+        {{hash=00de3ef81d8c3c3ecdb200e8dfc51ac6}{%
+           family={Obojski},
+           familyi={O\bibinitperiod},
+           given={Piotrek},
+           giveni={P\bibinitperiod}}}%
+        {{hash=adaee52b8fdca3e5295888c9519ac38f}{%
+           family={Plantholt},
+           familyi={P\bibinitperiod},
+           given={Philip},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{011d6731f9825f68768132b506730137}
+      \strng{fullhash}{9db5ead81219fb707b2db5c386bbda6c}
+      \strng{fullhashraw}{9db5ead81219fb707b2db5c386bbda6c}
+      \strng{bibnamehash}{9db5ead81219fb707b2db5c386bbda6c}
+      \strng{authorbibnamehash}{9db5ead81219fb707b2db5c386bbda6c}
+      \strng{authornamehash}{011d6731f9825f68768132b506730137}
+      \strng{authorfullhash}{9db5ead81219fb707b2db5c386bbda6c}
+      \strng{authorfullhashraw}{9db5ead81219fb707b2db5c386bbda6c}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 13th SESAR Innovation Days, Sevilla, Spain}
+      \field{title}{Evaluating Transatlantic Flight Emissions and Inefficiencies Using Space-Based ADS-B Data}
+      \field{year}{2023}
+      \field{pages}{27\bibrangedash 30}
+      \range{pages}{4}
+    \endentry
+    \entry{cretin2018increasing}{inproceedings}{}{}
+      \name{author}{4}{}{%
+        {{hash=0ff8cb1867f6f4e559ad8e0c3272fff1}{%
+           family={Cretin},
+           familyi={C\bibinitperiod},
+           given={Aymeric},
+           giveni={A\bibinitperiod}}}%
+        {{hash=925c8ebfdef9301e26dd7a09bd6f6cf5}{%
+           family={Legeard},
+           familyi={L\bibinitperiod},
+           given={Bruno},
+           giveni={B\bibinitperiod}}}%
+        {{hash=62aad41f2a248b6390c2dfb8fd902e93}{%
+           family={Peureux},
+           familyi={P\bibinitperiod},
+           given={Fabien},
+           giveni={F\bibinitperiod}}}%
+        {{hash=a1c5f06b0319baf13a7935b008c519a1}{%
+           family={Vernotte},
+           familyi={V\bibinitperiod},
+           given={Alexandre},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{d32edc260f180fc350ca1ef64a839871}
+      \strng{fullhash}{ba43d3acfc7136e765c01efb75ac2b4c}
+      \strng{fullhashraw}{ba43d3acfc7136e765c01efb75ac2b4c}
+      \strng{bibnamehash}{ba43d3acfc7136e765c01efb75ac2b4c}
+      \strng{authorbibnamehash}{ba43d3acfc7136e765c01efb75ac2b4c}
+      \strng{authornamehash}{d32edc260f180fc350ca1ef64a839871}
+      \strng{authorfullhash}{ba43d3acfc7136e765c01efb75ac2b4c}
+      \strng{authorfullhashraw}{ba43d3acfc7136e765c01efb75ac2b4c}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{International Conference on Research in Air Transportation}
+      \field{title}{Increasing the resilience of ATC systems against false data injection attacks using DSL-based testing}
+      \field{year}{2018}
+    \endentry
+    \entry{khan2021intrusion}{inproceedings}{}{}
+      \name{author}{4}{}{%
+        {{hash=9b901df2e8fc119375af27b56a23fddc}{%
+           family={Khan},
+           familyi={K\bibinitperiod},
+           given={Suleman},
+           giveni={S\bibinitperiod}}}%
+        {{hash=639d75290ffcf91a36ffd6c91d455f30}{%
+           family={Thorn},
+           familyi={T\bibinitperiod},
+           given={Joakim},
+           giveni={J\bibinitperiod}}}%
+        {{hash=ac12b3d68e594372e4a1c3f3f35bc9db}{%
+           family={Wahlgren},
+           familyi={W\bibinitperiod},
+           given={Alex},
+           giveni={A\bibinitperiod}}}%
+        {{hash=f2efae89a910397f98c3d9cd16dac79f}{%
+           family={Gurtov},
+           familyi={G\bibinitperiod},
+           given={Andrei},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{dec915d60a3cc2b8348be4ac8cc89c8c}
+      \strng{fullhash}{61d781b7636b937c94077a06cc28f995}
+      \strng{fullhashraw}{61d781b7636b937c94077a06cc28f995}
+      \strng{bibnamehash}{61d781b7636b937c94077a06cc28f995}
+      \strng{authorbibnamehash}{61d781b7636b937c94077a06cc28f995}
+      \strng{authornamehash}{dec915d60a3cc2b8348be4ac8cc89c8c}
+      \strng{authorfullhash}{61d781b7636b937c94077a06cc28f995}
+      \strng{authorfullhashraw}{61d781b7636b937c94077a06cc28f995}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2021 IEEE/AIAA 40th Digital Avionics Systems Conference (DASC)}
+      \field{title}{Intrusion detection in automatic dependent surveillance-broadcast (ADS-B) with machine learning}
+      \field{year}{2021}
+      \field{pages}{1\bibrangedash 10}
+      \range{pages}{10}
+    \endentry
+    \entry{mehlitz2019analyzing}{inproceedings}{}{}
+      \name{author}{3}{}{%
+        {{hash=c1e07a09e18d04e87aa25be46ad34209}{%
+           family={Mehlitz},
+           familyi={M\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+        {{hash=0f3453f8b23962382e7263d5f030d3c7}{%
+           family={Giannakopoulou},
+           familyi={G\bibinitperiod},
+           given={Dimitra},
+           giveni={D\bibinitperiod}}}%
+        {{hash=1ddf1d5c19267166216f71af17124b07}{%
+           family={Shafiei},
+           familyi={S\bibinitperiod},
+           given={Nastaran},
+           giveni={N\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{ca95fedaf63dd60fdb3347cf2c75db3d}
+      \strng{fullhash}{ca95fedaf63dd60fdb3347cf2c75db3d}
+      \strng{fullhashraw}{ca95fedaf63dd60fdb3347cf2c75db3d}
+      \strng{bibnamehash}{ca95fedaf63dd60fdb3347cf2c75db3d}
+      \strng{authorbibnamehash}{ca95fedaf63dd60fdb3347cf2c75db3d}
+      \strng{authornamehash}{ca95fedaf63dd60fdb3347cf2c75db3d}
+      \strng{authorfullhash}{ca95fedaf63dd60fdb3347cf2c75db3d}
+      \strng{authorfullhashraw}{ca95fedaf63dd60fdb3347cf2c75db3d}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2019 IEEE/AIAA 38th Digital Avionics Systems Conference (DASC)}
+      \field{title}{Analyzing airspace data with race}
+      \field{year}{2019}
+      \field{pages}{1\bibrangedash 10}
+      \range{pages}{10}
+    \endentry
+    \entry{bolic2024roadmap}{article}{}{}
+      \name{author}{6}{}{%
+        {{hash=092f32f52f0de15857c5045577b19163}{%
+           family={Bolic},
+           familyi={B\bibinitperiod},
+           given={Tatjana},
+           giveni={T\bibinitperiod}}}%
+        {{hash=d89fea6b87d5e26a6d4153dfc97c8c8b}{%
+           family={Cook},
+           familyi={C\bibinitperiod},
+           given={Andrew},
+           giveni={A\bibinitperiod}}}%
+        {{hash=8d693621946e8bece7f1a8cec4ff81f2}{%
+           family={Koelle},
+           familyi={K\bibinitperiod},
+           given={Rainer},
+           giveni={R\bibinitperiod}}}%
+        {{hash=65ec81290e424ae0f32eea075b502e2b}{%
+           family={Spinielli},
+           familyi={S\bibinitperiod},
+           given={Enrico},
+           giveni={E\bibinitperiod}}}%
+        {{hash=d50be265eb58747689b7c1dc4a2a2158}{%
+           family={Goens},
+           familyi={G\bibinitperiod},
+           given={Quinten},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=bade8eca92e6e0f62acc03aa3c6fa3d0}{%
+           family={Strohmeier},
+           familyi={S\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{06b7cea5b2ab39369bd3b1ee530df9d1}
+      \strng{fullhash}{715e8afe41351523bf57aeb74b96783a}
+      \strng{fullhashraw}{715e8afe41351523bf57aeb74b96783a}
+      \strng{bibnamehash}{715e8afe41351523bf57aeb74b96783a}
+      \strng{authorbibnamehash}{715e8afe41351523bf57aeb74b96783a}
+      \strng{authornamehash}{06b7cea5b2ab39369bd3b1ee530df9d1}
+      \strng{authorfullhash}{715e8afe41351523bf57aeb74b96783a}
+      \strng{authorfullhashraw}{715e8afe41351523bf57aeb74b96783a}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{European Journal of Transport and Infrastructure Research}
+      \field{number}{4}
+      \field{title}{Roadmap for a European open science alliance for ATM research}
+      \field{volume}{24}
+      \field{year}{2024}
+      \field{pages}{18\bibrangedash 40}
+      \range{pages}{23}
+    \endentry
+    \entry{8102001}{inproceedings}{}{}
+      \name{author}{3}{}{%
+        {{hash=30015f1bb1e06c3897919e4d54b52b19}{%
+           family={Tabassum},
+           familyi={T\bibinitperiod},
+           given={Asma},
+           giveni={A\bibinitperiod}}}%
+        {{hash=e90834ca7e030bbb0a69d9eb9bdc5c64}{%
+           family={Allen},
+           familyi={A\bibinitperiod},
+           given={Nicholas},
+           giveni={N\bibinitperiod}}}%
+        {{hash=14c23991c23b855fa8e2e80290b00ae5}{%
+           family={Semke},
+           familyi={S\bibinitperiod},
+           given={William},
+           giveni={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{b48f9e4ecfdd73f65a0e35b6a9a82778}
+      \strng{fullhash}{b48f9e4ecfdd73f65a0e35b6a9a82778}
+      \strng{fullhashraw}{b48f9e4ecfdd73f65a0e35b6a9a82778}
+      \strng{bibnamehash}{b48f9e4ecfdd73f65a0e35b6a9a82778}
+      \strng{authorbibnamehash}{b48f9e4ecfdd73f65a0e35b6a9a82778}
+      \strng{authornamehash}{b48f9e4ecfdd73f65a0e35b6a9a82778}
+      \strng{authorfullhash}{b48f9e4ecfdd73f65a0e35b6a9a82778}
+      \strng{authorfullhashraw}{b48f9e4ecfdd73f65a0e35b6a9a82778}
+      \field{extraname}{2}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2017 IEEE/AIAA 36th Digital Avionics Systems Conference (DASC)}
+      \field{title}{ADS-B message contents evaluation and breakdown of anomalies}
+      \field{year}{2017}
+      \field{pages}{1\bibrangedash 8}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1109/DASC.2017.8102001
+      \endverb
+      \keyw{Aircraft;Aircraft navigation;Payloads;Air traffic control;Aerospace electronics;Surveillance;Receivers;ADS-B;Anomalies;Drop out;Altitude Discrepancy}
+    \endentry
+    \entry{8569833}{inproceedings}{}{}
+      \name{author}{6}{}{%
+        {{hash=1e7b16300921bf5eaedbb2489b9690eb}{%
+           family={Schäfer},
+           familyi={S\bibinitperiod},
+           given={Matthias},
+           giveni={M\bibinitperiod}}}%
+        {{hash=6057730ea0a06e1085b15e8eb917a1a0}{%
+           family={Strohmeicr},
+           familyi={S\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod}}}%
+        {{hash=892bcbf9fb91b1348837862cbf71f80f}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={Matthew},
+           giveni={M\bibinitperiod}}}%
+        {{hash=feef7c28c82ca2057bdadc951dcf9538}{%
+           family={Fuchs},
+           familyi={F\bibinitperiod},
+           given={Markus},
+           giveni={M\bibinitperiod}}}%
+        {{hash=6d4f48d80340f4c57d4a6c28dcde5ad2}{%
+           family={Lenders},
+           familyi={L\bibinitperiod},
+           given={Vincent},
+           giveni={V\bibinitperiod}}}%
+        {{hash=1645d8bef55e7f7b84b3ae7a9a8e3729}{%
+           family={Martinovic},
+           familyi={M\bibinitperiod},
+           given={Ivan},
+           giveni={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{39c11a2080d01131cfc622a10d063669}
+      \strng{fullhash}{6beed48698fd53a965be9b38c975c993}
+      \strng{fullhashraw}{6beed48698fd53a965be9b38c975c993}
+      \strng{bibnamehash}{6beed48698fd53a965be9b38c975c993}
+      \strng{authorbibnamehash}{6beed48698fd53a965be9b38c975c993}
+      \strng{authornamehash}{39c11a2080d01131cfc622a10d063669}
+      \strng{authorfullhash}{6beed48698fd53a965be9b38c975c993}
+      \strng{authorfullhashraw}{6beed48698fd53a965be9b38c975c993}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2018 IEEE/AIAA 37th Digital Avionics Systems Conference (DASC)}
+      \field{title}{OpenSky Report 2018: Assessing the Integrity of Crowdsourced Mode S and ADS-B Data}
+      \field{year}{2018}
+      \field{pages}{1\bibrangedash 9}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1109/DASC.2018.8569833
+      \endverb
+      \keyw{Receivers;Hardware;Data integrity;Software;Aircraft;Crowdsourcing;Transponders}
+    \endentry
+    \entry{Olive_Krummen_Figuet_Alligier_2025}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=a4b583fa0e665ccfe90dcc27ff3c7bcb}{%
+           family={Olive},
+           familyi={O\bibinitperiod},
+           given={Xavier},
+           giveni={X\bibinitperiod}}}%
+        {{hash=1a1b46b50f2e881b359ab13dad386f39}{%
+           family={Krummen},
+           familyi={K\bibinitperiod},
+           given={Jan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=c38399df5235cf267b038edac6bf247e}{%
+           family={Figuet},
+           familyi={F\bibinitperiod},
+           given={Benoit},
+           giveni={B\bibinitperiod}}}%
+        {{hash=bcc366ee65ba3739047f4d11426bf380}{%
+           family={Alligier},
+           familyi={A\bibinitperiod},
+           given={Richard},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{d43a852ecb8a8989eac92b2652e37b9f}
+      \strng{fullhash}{01dcaebba7acaa3e4c050c147bf8815b}
+      \strng{fullhashraw}{01dcaebba7acaa3e4c050c147bf8815b}
+      \strng{bibnamehash}{01dcaebba7acaa3e4c050c147bf8815b}
+      \strng{authorbibnamehash}{01dcaebba7acaa3e4c050c147bf8815b}
+      \strng{authornamehash}{d43a852ecb8a8989eac92b2652e37b9f}
+      \strng{authorfullhash}{01dcaebba7acaa3e4c050c147bf8815b}
+      \strng{authorfullhashraw}{01dcaebba7acaa3e4c050c147bf8815b}
+      \field{extraname}{2}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Open Aviation Science}
+      \field{month}{3}
+      \field{number}{2}
+      \field{title}{Filtering Techniques for {{ADS-b}} Trajectory Preprocessing}
+      \field{volume}{2}
+      \field{year}{2025}
+      \verb{doi}
+      \verb 10.59490/joas.2024.7882
+      \endverb
+    \endentry
+    \entry{dhief2021tree}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=3a843bfa28eb20e24a52572979c6c49c}{%
+           family={Dhief},
+           familyi={D\bibinitperiod},
+           given={Imen},
+           giveni={I\bibinitperiod}}}%
+        {{hash=f0e5ba9f4b77889a3e23841edd27586a}{%
+           family={Alam},
+           familyi={A\bibinitperiod},
+           given={Sameer},
+           giveni={S\bibinitperiod}}}%
+        {{hash=11c3b42644303cd16b9b71e50d8c15d9}{%
+           family={Mean},
+           familyi={M\bibinitperiod},
+           given={Chan\bibnamedelima Chea},
+           giveni={C\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=feda1af87e3c426a801458e5fb8c349f}{%
+           family={Lilith},
+           familyi={L\bibinitperiod},
+           given={Nimrod},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{2eea7a85f9f4c30c1add01d04b58fb9f}
+      \strng{fullhash}{f5d2070c6dc461a5299f4ee2ef01a26a}
+      \strng{fullhashraw}{f5d2070c6dc461a5299f4ee2ef01a26a}
+      \strng{bibnamehash}{f5d2070c6dc461a5299f4ee2ef01a26a}
+      \strng{authorbibnamehash}{f5d2070c6dc461a5299f4ee2ef01a26a}
+      \strng{authornamehash}{2eea7a85f9f4c30c1add01d04b58fb9f}
+      \strng{authorfullhash}{f5d2070c6dc461a5299f4ee2ef01a26a}
+      \strng{authorfullhashraw}{f5d2070c6dc461a5299f4ee2ef01a26a}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings 11th SESAR Innovation Days}
+      \field{title}{A Tree-based Machine Learning Model for Go-around Detection and Prediction}
+      \field{year}{2021}
+    \endentry
+    \entry{lindner2021aircraft}{inproceedings}{}{}
+      \name{author}{4}{}{%
+        {{hash=562abc4e251d66a0e73d3e9a4acb2300}{%
+           family={Lindner},
+           familyi={L\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod}}}%
+        {{hash=1582fc5b76b4f29e545a1fe0f3e2fb27}{%
+           family={Zeh},
+           familyi={Z\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+        {{hash=c45730fe30670142e68f61fbc82b988f}{%
+           family={Bra{ß}el},
+           familyi={B\bibinitperiod},
+           given={Hannes},
+           giveni={H\bibinitperiod}}}%
+        {{hash=5338bbdfe5617bc4d3136b8fdcbf9f7e}{%
+           family={Fricke},
+           familyi={F\bibinitperiod},
+           given={Hartmut},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{810ba3ba8a6be1f51a1054747bdfa797}
+      \strng{fullhash}{922758cd0a232c3e60781a14c62062c3}
+      \strng{fullhashraw}{922758cd0a232c3e60781a14c62062c3}
+      \strng{bibnamehash}{922758cd0a232c3e60781a14c62062c3}
+      \strng{authorbibnamehash}{922758cd0a232c3e60781a14c62062c3}
+      \strng{authornamehash}{810ba3ba8a6be1f51a1054747bdfa797}
+      \strng{authorfullhash}{922758cd0a232c3e60781a14c62062c3}
+      \strng{authorfullhashraw}{922758cd0a232c3e60781a14c62062c3}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the Fourteenth USA/Europe Air Traffic Management Research and Development Seminar (ATM2021), Virtual Event}
+      \field{title}{Aircraft performance-optimized departure flights using traffic flow funnels}
+      \field{year}{2021}
+      \field{pages}{20\bibrangedash 23}
+      \range{pages}{4}
+    \endentry
+    \entry{sun2019wrap}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=1143e2165747efb25d0b6194fdd45826}{%
+           family={Sun},
+           familyi={S\bibinitperiod},
+           given={Junzi},
+           giveni={J\bibinitperiod}}}%
+        {{hash=56366204c57d12a8481b3f8f052fe5b1}{%
+           family={Ellerbroek},
+           familyi={E\bibinitperiod},
+           given={Joost},
+           giveni={J\bibinitperiod}}}%
+        {{hash=b6dabe84a71443927377b484380b5f1e}{%
+           family={Hoekstra},
+           familyi={H\bibinitperiod},
+           given={Jacco\bibnamedelima M},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{c5804471c4d8fc94d31b6a79c80e3ae0}
+      \strng{fullhash}{c5804471c4d8fc94d31b6a79c80e3ae0}
+      \strng{fullhashraw}{c5804471c4d8fc94d31b6a79c80e3ae0}
+      \strng{bibnamehash}{c5804471c4d8fc94d31b6a79c80e3ae0}
+      \strng{authorbibnamehash}{c5804471c4d8fc94d31b6a79c80e3ae0}
+      \strng{authornamehash}{c5804471c4d8fc94d31b6a79c80e3ae0}
+      \strng{authorfullhash}{c5804471c4d8fc94d31b6a79c80e3ae0}
+      \strng{authorfullhashraw}{c5804471c4d8fc94d31b6a79c80e3ae0}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Transportation Research Part C: Emerging Technologies}
+      \field{title}{WRAP: An open-source kinematic aircraft performance model}
+      \field{volume}{98}
+      \field{year}{2019}
+      \field{pages}{118\bibrangedash 138}
+      \range{pages}{21}
+    \endentry
+    \entry{shafienya20224d}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=eb20f9eb057eb3177c3d51636dfd9df7}{%
+           family={Shafienya},
+           familyi={S\bibinitperiod},
+           given={Hesam},
+           giveni={H\bibinitperiod}}}%
+        {{hash=339b296a511687ad1ecaf79fd3386585}{%
+           family={Regan},
+           familyi={R\bibinitperiod},
+           given={Amelia\bibnamedelima C},
+           giveni={A\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{3720320a8ffd6030ab527d5ab677a540}
+      \strng{fullhash}{3720320a8ffd6030ab527d5ab677a540}
+      \strng{fullhashraw}{3720320a8ffd6030ab527d5ab677a540}
+      \strng{bibnamehash}{3720320a8ffd6030ab527d5ab677a540}
+      \strng{authorbibnamehash}{3720320a8ffd6030ab527d5ab677a540}
+      \strng{authornamehash}{3720320a8ffd6030ab527d5ab677a540}
+      \strng{authorfullhash}{3720320a8ffd6030ab527d5ab677a540}
+      \strng{authorfullhashraw}{3720320a8ffd6030ab527d5ab677a540}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Transportation Research Part C: Emerging Technologies}
+      \field{title}{4D flight trajectory prediction using a hybrid Deep Learning prediction method based on ADS-B technology: A case study of Hartsfield--Jackson Atlanta International Airport (ATL)}
+      \field{volume}{144}
+      \field{year}{2022}
+      \field{pages}{103878}
+      \range{pages}{1}
+    \endentry
+    \entry{10311324}{inproceedings}{}{}
+      \name{author}{2}{}{%
+        {{hash=bf85cc344a569fff1818e401200b9171}{%
+           family={Yoon},
+           familyi={Y\bibinitperiod},
+           given={Seokbin},
+           giveni={S\bibinitperiod}}}%
+        {{hash=e0b8eacc7922e481f22904fb2a77972a}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Keumjin},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{4067b4dbdd823f752571544e9a7b193e}
+      \strng{fullhash}{4067b4dbdd823f752571544e9a7b193e}
+      \strng{fullhashraw}{4067b4dbdd823f752571544e9a7b193e}
+      \strng{bibnamehash}{4067b4dbdd823f752571544e9a7b193e}
+      \strng{authorbibnamehash}{4067b4dbdd823f752571544e9a7b193e}
+      \strng{authornamehash}{4067b4dbdd823f752571544e9a7b193e}
+      \strng{authorfullhash}{4067b4dbdd823f752571544e9a7b193e}
+      \strng{authorfullhashraw}{4067b4dbdd823f752571544e9a7b193e}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2023 IEEE/AIAA 42nd Digital Avionics Systems Conference (DASC)}
+      \field{title}{Improving Aircraft Trajectory Prediction Accuracy with Over-sampling Technique}
+      \field{year}{2023}
+      \field{pages}{1\bibrangedash 6}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/DASC58513.2023.10311324
+      \endverb
+    \endentry
+    \entry{WANG2020101840}{article}{}{}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labeltitlesource}{title}
+      \field{issn}{0969-6997}
+      \field{journaltitle}{Journal of Air Transport Management}
+      \field{title}{Automated data-driven prediction on aircraft Estimated Time of Arrival}
+      \field{volume}{88}
+      \field{year}{2020}
+      \field{pages}{101840}
+      \range{pages}{1}
+    \endentry
+    \entry{vos2024transformer}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=b4b9393f3c1ac14b604c61f51a86aeec}{%
+           family={Vos},
+           familyi={V\bibinitperiod},
+           given={RW},
+           giveni={R\bibinitperiod}}}%
+        {{hash=1143e2165747efb25d0b6194fdd45826}{%
+           family={Sun},
+           familyi={S\bibinitperiod},
+           given={Junzi},
+           giveni={J\bibinitperiod}}}%
+        {{hash=34f7c137ba5a2142920f3ca41f4e8e30}{%
+           family={Hoekstra},
+           familyi={H\bibinitperiod},
+           given={JM},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{ccc00fac91853d265551dc69b84735f6}
+      \strng{fullhash}{ccc00fac91853d265551dc69b84735f6}
+      \strng{fullhashraw}{ccc00fac91853d265551dc69b84735f6}
+      \strng{bibnamehash}{ccc00fac91853d265551dc69b84735f6}
+      \strng{authorbibnamehash}{ccc00fac91853d265551dc69b84735f6}
+      \strng{authornamehash}{ccc00fac91853d265551dc69b84735f6}
+      \strng{authorfullhash}{ccc00fac91853d265551dc69b84735f6}
+      \strng{authorfullhashraw}{ccc00fac91853d265551dc69b84735f6}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{A Transformer-based Trajectory Prediction Model to Support Air Traffic Demand Forecasting}
+      \field{year}{2024}
+    \endentry
+    \entry{SCHULTZ2022102164}{article}{}{}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labeltitlesource}{title}
+      \field{issn}{0969-6997}
+      \field{journaltitle}{Journal of Air Transport Management}
+      \field{title}{Data-driven airport management enabled by operational milestones derived from ADS-B messages}
+      \field{volume}{99}
+      \field{year}{2022}
+      \field{pages}{102164}
+      \range{pages}{1}
+    \endentry
+    \entry{olive2018detecting}{inproceedings}{}{}
+      \name{author}{4}{}{%
+        {{hash=a4b583fa0e665ccfe90dcc27ff3c7bcb}{%
+           family={Olive},
+           familyi={O\bibinitperiod},
+           given={Xavier},
+           giveni={X\bibinitperiod}}}%
+        {{hash=f2500079c7b2f48a52861064ec5b90b3}{%
+           family={Grignard},
+           familyi={G\bibinitperiod},
+           given={Jeremy},
+           giveni={J\bibinitperiod}}}%
+        {{hash=905a51800d5e498be8ed2e351681ab72}{%
+           family={Dubot},
+           familyi={D\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+        {{hash=e4f45ca8732ba83af5b6548792efce87}{%
+           family={Saint-Lot},
+           familyi={S\bibinithyphendelim L\bibinitperiod},
+           given={Julie},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{d43a852ecb8a8989eac92b2652e37b9f}
+      \strng{fullhash}{f6e58acd3b6d7731f2b77c7ded0a3871}
+      \strng{fullhashraw}{f6e58acd3b6d7731f2b77c7ded0a3871}
+      \strng{bibnamehash}{f6e58acd3b6d7731f2b77c7ded0a3871}
+      \strng{authorbibnamehash}{f6e58acd3b6d7731f2b77c7ded0a3871}
+      \strng{authornamehash}{d43a852ecb8a8989eac92b2652e37b9f}
+      \strng{authorfullhash}{f6e58acd3b6d7731f2b77c7ded0a3871}
+      \strng{authorfullhashraw}{f6e58acd3b6d7731f2b77c7ded0a3871}
+      \field{extraname}{3}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{SID 2018, 8th SESAR Innovation Days}
+      \field{title}{Detecting controllers' actions in past mode S data by autoencoder-based anomaly detection}
+      \field{year}{2018}
+    \endentry
+    \entry{BAO2024102667}{article}{}{}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labeltitlesource}{title}
+      \field{issn}{0969-6997}
+      \field{journaltitle}{Journal of Air Transport Management}
+      \field{title}{Exploring the conflict risk characteristics of air weaving sections in Metroplex terminal areas with flight trajectory data and adaptive graph spatial-temporal transformer}
+      \field{volume}{120}
+      \field{year}{2024}
+      \field{pages}{102667}
+      \range{pages}{1}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.jairtraman.2024.102667
+      \endverb
+    \endentry
+    \entry{LU2021102970}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=abd9b9e3ba52134358eebe419218499d}{%
+           family={Lu},
+           familyi={L\bibinitperiod},
+           given={Fei},
+           giveni={F\bibinitperiod}}}%
+        {{hash=fd05f39f43265eb2ff675e34a46c438d}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Zichen},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=d93e5023320a6e028928e184ac7cab26}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Huiyu},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{a94912f79f34a674a545f458b6221175}
+      \strng{fullhash}{a94912f79f34a674a545f458b6221175}
+      \strng{fullhashraw}{a94912f79f34a674a545f458b6221175}
+      \strng{bibnamehash}{a94912f79f34a674a545f458b6221175}
+      \strng{authorbibnamehash}{a94912f79f34a674a545f458b6221175}
+      \strng{authornamehash}{a94912f79f34a674a545f458b6221175}
+      \strng{authorfullhash}{a94912f79f34a674a545f458b6221175}
+      \strng{authorfullhashraw}{a94912f79f34a674a545f458b6221175}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0968-090X}
+      \field{journaltitle}{Transportation Research Part C: Emerging Technologies}
+      \field{title}{Lateral collision risk assessment of parallel routes in ocean area based on space-based ADS-B}
+      \field{volume}{124}
+      \field{year}{2021}
+      \field{pages}{102970}
+      \range{pages}{1}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.trc.2021.102970
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0968090X21000085
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0968090X21000085
+      \endverb
+    \endentry
+    \entry{churchill2019clustering}{inproceedings}{}{}
+      \name{author}{2}{}{%
+        {{hash=01241fc28852d4b3d525433471f39dda}{%
+           family={Churchill},
+           familyi={C\bibinitperiod},
+           given={Andrew\bibnamedelima M},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=86035c23cd736e603f0d46b2fe8f8c4e}{%
+           family={Bloem},
+           familyi={B\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{f65e62984ef401082f431decf60bb8ce}
+      \strng{fullhash}{f65e62984ef401082f431decf60bb8ce}
+      \strng{fullhashraw}{f65e62984ef401082f431decf60bb8ce}
+      \strng{bibnamehash}{f65e62984ef401082f431decf60bb8ce}
+      \strng{authorbibnamehash}{f65e62984ef401082f431decf60bb8ce}
+      \strng{authornamehash}{f65e62984ef401082f431decf60bb8ce}
+      \strng{authorfullhash}{f65e62984ef401082f431decf60bb8ce}
+      \strng{authorfullhashraw}{f65e62984ef401082f431decf60bb8ce}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 13th USA/Europe Air Traffic Management Research and Development Seminar, Chicago, IL, USA}
+      \field{title}{Clustering aircraft trajectories on the airport surface}
+      \field{year}{2019}
+      \field{pages}{10\bibrangedash 13}
+      \range{pages}{4}
+    \endentry
+    \entry{ZHU2023102473}{article}{}{}
+      \name{author}{6}{}{%
+        {{hash=add8c2fc10c622c2a87d599271b4ee40}{%
+           family={Zhu},
+           familyi={Z\bibinitperiod},
+           given={Xinting},
+           giveni={X\bibinitperiod}}}%
+        {{hash=0ae5a690167d085a66fa1902db0731a7}{%
+           family={Hong},
+           familyi={H\bibinitperiod},
+           given={Ning},
+           giveni={N\bibinitperiod}}}%
+        {{hash=0dd56661b841b6f31477a2120746d5bf}{%
+           family={He},
+           familyi={H\bibinitperiod},
+           given={Fang},
+           giveni={F\bibinitperiod}}}%
+        {{hash=dea309c9966618b69b003390be28d790}{%
+           family={Lin},
+           familyi={L\bibinitperiod},
+           given={Yu},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=1b808ad14d8865037d11bb220c90cffc}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Lishuai},
+           giveni={L\bibinitperiod}}}%
+        {{hash=87d1bd4247659a352dbda4c5da3b5d14}{%
+           family={Fu},
+           familyi={F\bibinitperiod},
+           given={Xiaowen},
+           giveni={X\bibinitperiod}}}%
+      }
+      \strng{namehash}{8e4cc402f39da4febed0b69f65af3788}
+      \strng{fullhash}{96163ae4a38983a71055d159d78387ed}
+      \strng{fullhashraw}{96163ae4a38983a71055d159d78387ed}
+      \strng{bibnamehash}{96163ae4a38983a71055d159d78387ed}
+      \strng{authorbibnamehash}{96163ae4a38983a71055d159d78387ed}
+      \strng{authornamehash}{8e4cc402f39da4febed0b69f65af3788}
+      \strng{authorfullhash}{96163ae4a38983a71055d159d78387ed}
+      \strng{authorfullhashraw}{96163ae4a38983a71055d159d78387ed}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0969-6997}
+      \field{journaltitle}{Journal of Air Transport Management}
+      \field{title}{Predicting aircraft trajectory uncertainties for terminal airspace design evaluation}
+      \field{volume}{113}
+      \field{year}{2023}
+      \field{pages}{102473}
+      \range{pages}{1}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.jairtraman.2023.102473
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0969699723001163
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0969699723001163
+      \endverb
+    \endentry
+    \entry{7549107}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=5391239cd9b98b5145a1cace8b93f3b4}{%
+           family={Mahboubi},
+           familyi={M\bibinitperiod},
+           given={Zouhair},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=c3946ec43592957f452c131136bcbd9d}{%
+           family={Kochenderfer},
+           familyi={K\bibinitperiod},
+           given={Mykel\bibnamedelima J.},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{a326c98beb2dd2d2bf91ec7196453201}
+      \strng{fullhash}{a326c98beb2dd2d2bf91ec7196453201}
+      \strng{fullhashraw}{a326c98beb2dd2d2bf91ec7196453201}
+      \strng{bibnamehash}{a326c98beb2dd2d2bf91ec7196453201}
+      \strng{authorbibnamehash}{a326c98beb2dd2d2bf91ec7196453201}
+      \strng{authornamehash}{a326c98beb2dd2d2bf91ec7196453201}
+      \strng{authorfullhash}{a326c98beb2dd2d2bf91ec7196453201}
+      \strng{authorfullhashraw}{a326c98beb2dd2d2bf91ec7196453201}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Intelligent Transportation Systems}
+      \field{number}{4}
+      \field{title}{Learning Traffic Patterns at Small Airports From Flight Tracks}
+      \field{volume}{18}
+      \field{year}{2017}
+      \field{pages}{917\bibrangedash 926}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1109/TITS.2016.2598064
+      \endverb
+      \keyw{Hidden Markov models;Aircraft;Atmospheric modeling;Airports;Markov processes;Trajectory;Aircraft navigation;Air traffic control;probabilistic models;unsupervised learning}
+    \endentry
+    \entry{alligier2018learning}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=bcc366ee65ba3739047f4d11426bf380}{%
+           family={Alligier},
+           familyi={A\bibinitperiod},
+           given={Richard},
+           giveni={R\bibinitperiod}}}%
+        {{hash=9af871b12c9dee1f825c1478dcd8f5c1}{%
+           family={Gianazza},
+           familyi={G\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{18ef0b5e88be7da5ba3c0262e0955a87}
+      \strng{fullhash}{18ef0b5e88be7da5ba3c0262e0955a87}
+      \strng{fullhashraw}{18ef0b5e88be7da5ba3c0262e0955a87}
+      \strng{bibnamehash}{18ef0b5e88be7da5ba3c0262e0955a87}
+      \strng{authorbibnamehash}{18ef0b5e88be7da5ba3c0262e0955a87}
+      \strng{authornamehash}{18ef0b5e88be7da5ba3c0262e0955a87}
+      \strng{authorfullhash}{18ef0b5e88be7da5ba3c0262e0955a87}
+      \strng{authorfullhashraw}{18ef0b5e88be7da5ba3c0262e0955a87}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Transportation research part C: emerging technologies}
+      \field{title}{Learning aircraft operational factors to improve aircraft climb prediction: A large scale multi-airport study}
+      \field{volume}{96}
+      \field{year}{2018}
+      \field{pages}{72\bibrangedash 95}
+      \range{pages}{24}
+    \endentry
+    \entry{LIU2024104652}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=0e95e36c46875638d73d1be006b7fdcc}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Yingli},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=9b2c7bf24ba0a5b595f5aee7c9d3e400}{%
+           family={Hu},
+           familyi={H\bibinitperiod},
+           given={Minghua},
+           giveni={M\bibinitperiod}}}%
+        {{hash=78c973454db31ca4a363adadec9b5528}{%
+           family={Yin},
+           familyi={Y\bibinitperiod},
+           given={Jianan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=665b86c656f6e10693bdfdb421bde02a}{%
+           family={Su},
+           familyi={S\bibinitperiod},
+           given={Jiaming},
+           giveni={J\bibinitperiod}}}%
+        {{hash=b56c3b92e77fa90829d0b6e64e41e593}{%
+           family={Qiao},
+           familyi={Q\bibinitperiod},
+           given={Peiran},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{9b204bcb97556e6fced82fc677576f2d}
+      \strng{fullhash}{657bc57bb395c53eff9feffef5f36fca}
+      \strng{fullhashraw}{657bc57bb395c53eff9feffef5f36fca}
+      \strng{bibnamehash}{657bc57bb395c53eff9feffef5f36fca}
+      \strng{authorbibnamehash}{657bc57bb395c53eff9feffef5f36fca}
+      \strng{authornamehash}{9b204bcb97556e6fced82fc677576f2d}
+      \strng{authorfullhash}{657bc57bb395c53eff9feffef5f36fca}
+      \strng{authorfullhashraw}{657bc57bb395c53eff9feffef5f36fca}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0968-090X}
+      \field{journaltitle}{Transportation Research Part C: Emerging Technologies}
+      \field{title}{Adaptive airport taxiing rule management: Design, assessment, and configuration}
+      \field{volume}{163}
+      \field{year}{2024}
+      \field{pages}{104652}
+      \range{pages}{1}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.trc.2024.104652
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0968090X24001736
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0968090X24001736
+      \endverb
+      \keyw{Airport surface movement,Taxiing rule,Performance assessment,Rule configuration,L1-medial skeleton extraction}
+    \endentry
+    \entry{olive2019traffic}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=a4b583fa0e665ccfe90dcc27ff3c7bcb}{%
+           family={Olive},
+           familyi={O\bibinitperiod},
+           given={Xavier},
+           giveni={X\bibinitperiod}}}%
+      }
+      \strng{namehash}{a4b583fa0e665ccfe90dcc27ff3c7bcb}
+      \strng{fullhash}{a4b583fa0e665ccfe90dcc27ff3c7bcb}
+      \strng{fullhashraw}{a4b583fa0e665ccfe90dcc27ff3c7bcb}
+      \strng{bibnamehash}{a4b583fa0e665ccfe90dcc27ff3c7bcb}
+      \strng{authorbibnamehash}{a4b583fa0e665ccfe90dcc27ff3c7bcb}
+      \strng{authornamehash}{a4b583fa0e665ccfe90dcc27ff3c7bcb}
+      \strng{authorfullhash}{a4b583fa0e665ccfe90dcc27ff3c7bcb}
+      \strng{authorfullhashraw}{a4b583fa0e665ccfe90dcc27ff3c7bcb}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Open Source Software}
+      \field{number}{39}
+      \field{title}{Traffic, a toolbox for processing and analysing air traffic data}
+      \field{volume}{4}
+      \field{year}{2019}
+      \field{pages}{1518\bibrangedash 1}
+      \range{pages}{-6}
+    \endentry
+  \enddatalist
+  \missing{LIU2024104652id}
+\endrefsection
+\endinput
+

@@ -361,93 +361,6 @@
       \field{volume}{2}
       \field{year}{2024}
     \endentry
-    \entry{RCTA_DO-212}{standard}{}{}
-      \name{author}{1}{}{%
-        {{hash=1cf9427f890ac7e885f68889399dee9c}{%
-           family={{RCTA}},
-           familyi={R\bibinitperiod}}}%
-      }
-      \list{location}{1}{%
-        {Washington, DC}%
-      }
-      \list{publisher}{1}{%
-        {RCTA}%
-      }
-      \strng{namehash}{1cf9427f890ac7e885f68889399dee9c}
-      \strng{fullhash}{1cf9427f890ac7e885f68889399dee9c}
-      \strng{fullhashraw}{1cf9427f890ac7e885f68889399dee9c}
-      \strng{bibnamehash}{1cf9427f890ac7e885f68889399dee9c}
-      \strng{authorbibnamehash}{1cf9427f890ac7e885f68889399dee9c}
-      \strng{authornamehash}{1cf9427f890ac7e885f68889399dee9c}
-      \strng{authorfullhash}{1cf9427f890ac7e885f68889399dee9c}
-      \strng{authorfullhashraw}{1cf9427f890ac7e885f68889399dee9c}
-      \field{extraname}{1}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{number}{DO-212}
-      \field{title}{Minimum Operational Performance Standards for Airborne Automatic Dependent Surveillance (ADS) Equipment}
-      \field{year}{1992}
-    \endentry
-    \entry{RCTA_DO-242}{standard}{}{}
-      \name{author}{1}{}{%
-        {{hash=1cf9427f890ac7e885f68889399dee9c}{%
-           family={{RCTA}},
-           familyi={R\bibinitperiod}}}%
-      }
-      \list{location}{1}{%
-        {Washington, DC}%
-      }
-      \list{publisher}{1}{%
-        {RCTA}%
-      }
-      \strng{namehash}{1cf9427f890ac7e885f68889399dee9c}
-      \strng{fullhash}{1cf9427f890ac7e885f68889399dee9c}
-      \strng{fullhashraw}{1cf9427f890ac7e885f68889399dee9c}
-      \strng{bibnamehash}{1cf9427f890ac7e885f68889399dee9c}
-      \strng{authorbibnamehash}{1cf9427f890ac7e885f68889399dee9c}
-      \strng{authornamehash}{1cf9427f890ac7e885f68889399dee9c}
-      \strng{authorfullhash}{1cf9427f890ac7e885f68889399dee9c}
-      \strng{authorfullhashraw}{1cf9427f890ac7e885f68889399dee9c}
-      \field{extraname}{2}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{number}{DO-242}
-      \field{title}{Minimum Aviation System Performance Standards for Automatic Dependent Surveillance Broadcast (ADS-B)}
-      \field{year}{1998}
-    \endentry
-    \entry{faa2000capstone}{report}{}{}
-      \name{author}{1}{}{%
-        {{hash=3657034355c639d6ba54b793c6e9650b}{%
-           family={{FAA, Alaskan Region, Capstone Program Management Office}},
-           familyi={F\bibinitperiod}}}%
-      }
-      \list{institution}{1}{%
-        {Federal Aviation Administration}%
-      }
-      \list{location}{1}{%
-        {Anchorage, Alaska}%
-      }
-      \strng{namehash}{3657034355c639d6ba54b793c6e9650b}
-      \strng{fullhash}{3657034355c639d6ba54b793c6e9650b}
-      \strng{fullhashraw}{3657034355c639d6ba54b793c6e9650b}
-      \strng{bibnamehash}{3657034355c639d6ba54b793c6e9650b}
-      \strng{authorbibnamehash}{3657034355c639d6ba54b793c6e9650b}
-      \strng{authornamehash}{3657034355c639d6ba54b793c6e9650b}
-      \strng{authorfullhash}{3657034355c639d6ba54b793c6e9650b}
-      \strng{authorfullhashraw}{3657034355c639d6ba54b793c6e9650b}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{month}{3}
-      \field{title}{Capstone Program Plan Version 2.0}
-      \field{type}{techreport}
-      \field{year}{2000}
-    \endentry
     \entry{icao_2003}{inproceedings}{}{}
       \name{author}{1}{}{%
         {{hash=24fce4ebdfd823f678dc54f75aee3aa5}{%
@@ -469,99 +382,14 @@
       \strng{authorfullhash}{24fce4ebdfd823f678dc54f75aee3aa5}
       \strng{authorfullhashraw}{24fce4ebdfd823f678dc54f75aee3aa5}
       \field{extraname}{2}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Eleventh Air Navigation Conference}
       \field{number}{AN-Conf/11-WP/190}
       \field{title}{Eleventh Air Navigation Conference}
       \field{year}{2003}
-    \endentry
-    \entry{cfr91-225}{misc}{}{}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labeltitlesource}{title}
-      \field{howpublished}{Code of Federal Regulations, Title 14: Aeronautics and Space}
-      \field{note}{U.S. Government Publishing Office}
-      \field{title}{{14 CFR §91.225 -- Automatic Dependent Surveillance--Broadcast (ADS-B) Out Equipment and Use}}
-      \field{year}{2010}
-    \endentry
-    \entry{undertaking2009european}{misc}{}{}
-      \name{author}{1}{}{%
-        {{hash=df11d1c9f154a65ec1081c7f4919871d}{%
-           family={Undertaking},
-           familyi={U\bibinitperiod},
-           given={SESAR\bibnamedelima Joint},
-           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {SESAR Joint Undertaking Avenue de Cortenbergh}%
-      }
-      \strng{namehash}{df11d1c9f154a65ec1081c7f4919871d}
-      \strng{fullhash}{df11d1c9f154a65ec1081c7f4919871d}
-      \strng{fullhashraw}{df11d1c9f154a65ec1081c7f4919871d}
-      \strng{bibnamehash}{df11d1c9f154a65ec1081c7f4919871d}
-      \strng{authorbibnamehash}{df11d1c9f154a65ec1081c7f4919871d}
-      \strng{authornamehash}{df11d1c9f154a65ec1081c7f4919871d}
-      \strng{authorfullhash}{df11d1c9f154a65ec1081c7f4919871d}
-      \strng{authorfullhashraw}{df11d1c9f154a65ec1081c7f4919871d}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{European air traffic management master plan}
-      \field{year}{2009}
-    \endentry
-    \entry{casa2010cao20-18}{misc}{}{}
-      \name{author}{1}{}{%
-        {{hash=b4b0ac80c7741b9695a63f881d7c55d2}{%
-           family={{Civil Aviation Safety Authority (CASA)}},
-           familyi={C\bibinitperiod}}}%
-      }
-      \list{location}{1}{%
-        {Canberra, Australia}%
-      }
-      \strng{namehash}{b4b0ac80c7741b9695a63f881d7c55d2}
-      \strng{fullhash}{b4b0ac80c7741b9695a63f881d7c55d2}
-      \strng{fullhashraw}{b4b0ac80c7741b9695a63f881d7c55d2}
-      \strng{bibnamehash}{b4b0ac80c7741b9695a63f881d7c55d2}
-      \strng{authorbibnamehash}{b4b0ac80c7741b9695a63f881d7c55d2}
-      \strng{authornamehash}{b4b0ac80c7741b9695a63f881d7c55d2}
-      \strng{authorfullhash}{b4b0ac80c7741b9695a63f881d7c55d2}
-      \strng{authorfullhashraw}{b4b0ac80c7741b9695a63f881d7c55d2}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{howpublished}{Compilation prepared by the Legislative Drafting Branch, Legal Services Division}
-      \field{month}{5}
-      \field{note}{Available at: \url{https://www.legislation.gov.au/Series/F2005B01059}}
-      \field{title}{Civil Aviation Order 20.18 (as amended): Aircraft Equipment -- Basic Operational Requirements}
-      \field{year}{2010}
-    \endentry
-    \entry{caac2015adsb}{misc}{}{}
-      \name{author}{1}{}{%
-        {{hash=94193d00553c32e03429d1dd45e6b1f2}{%
-           family={{Civil Aviation Administration of China (CAAC)}},
-           familyi={C\bibinitperiod}}}%
-      }
-      \strng{namehash}{94193d00553c32e03429d1dd45e6b1f2}
-      \strng{fullhash}{94193d00553c32e03429d1dd45e6b1f2}
-      \strng{fullhashraw}{94193d00553c32e03429d1dd45e6b1f2}
-      \strng{bibnamehash}{94193d00553c32e03429d1dd45e6b1f2}
-      \strng{authorbibnamehash}{94193d00553c32e03429d1dd45e6b1f2}
-      \strng{authornamehash}{94193d00553c32e03429d1dd45e6b1f2}
-      \strng{authorfullhash}{94193d00553c32e03429d1dd45e6b1f2}
-      \strng{authorfullhashraw}{94193d00553c32e03429d1dd45e6b1f2}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{month}{12}
-      \field{note}{Beijing, China. Issued December 2015}
-      \field{title}{China Civil Aviation ADS-B Implementation Plan [in Chinese]}
-      \field{year}{2015}
     \endentry
     \entry{melero2024satera}{article}{}{}
       \name{author}{3}{}{%
@@ -589,8 +417,8 @@
       \strng{authornamehash}{fb99c76c0df66e6edf76ef63da9f7310}
       \strng{authorfullhash}{fb99c76c0df66e6edf76ef63da9f7310}
       \strng{authorfullhashraw}{fb99c76c0df66e6edf76ef63da9f7310}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{2024 SESAR Innovation days}
@@ -752,8 +580,8 @@
       \strng{authorfullhash}{bc5c6d5307d00c7217d2dceed95097c4}
       \strng{authorfullhashraw}{bc5c6d5307d00c7217d2dceed95097c4}
       \field{extraname}{2}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Transportation Research Part C: Emerging Technologies}
@@ -794,8 +622,8 @@
       \strng{authornamehash}{14980b753adb8fddc2a7681d6831ff0f}
       \strng{authorfullhash}{5001fb14fec1ff40b7f1b0bfd9121094}
       \strng{authorfullhashraw}{5001fb14fec1ff40b7f1b0bfd9121094}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Proceedings of the 8th SESAR Innovation Days, Salzburg, Austria}
@@ -835,8 +663,8 @@
       \strng{authornamehash}{ec4b7538e78ed914384001d2de007530}
       \strng{authorfullhash}{15fc3c353b45c655b602c5b75aa71431}
       \strng{authorfullhashraw}{15fc3c353b45c655b602c5b75aa71431}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{SESAR Innovation Days}
@@ -876,8 +704,8 @@
       \strng{authornamehash}{fd5e7e88dce461878ca4b1b3f39ed046}
       \strng{authorfullhash}{aa81e6ad5bae9786370bcd59cc56668c}
       \strng{authorfullhashraw}{aa81e6ad5bae9786370bcd59cc56668c}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Proceedings of the Fourteenth USA/Europe Air Traffic Management Research and Development Seminar (ATM2021), Virtual Event}
@@ -910,8 +738,8 @@
       \strng{authornamehash}{2fd494b240af4b81cdd8347dbee10529}
       \strng{authorfullhash}{2fd494b240af4b81cdd8347dbee10529}
       \strng{authorfullhashraw}{2fd494b240af4b81cdd8347dbee10529}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{2024 AIAA DATC/IEEE 43rd Digital Avionics Systems Conference (DASC)}
@@ -954,8 +782,8 @@
       \strng{authornamehash}{efd86db55840b987892abaaf55bb2ea2}
       \strng{authorfullhash}{41fef9de194cc875438514281467538e}
       \strng{authorfullhashraw}{41fef9de194cc875438514281467538e}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{IEEE Transactions on Intelligent Transportation Systems}
@@ -1005,8 +833,8 @@
       \strng{authornamehash}{30db89636de562668e8ef4fe329407cc}
       \strng{authorfullhash}{125dd3a70b666442566e71587fe60f04}
       \strng{authorfullhashraw}{125dd3a70b666442566e71587fe60f04}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of Air Transport Management}
@@ -1157,8 +985,8 @@
       \strng{authorfullhash}{b48f9e4ecfdd73f65a0e35b6a9a82778}
       \strng{authorfullhashraw}{b48f9e4ecfdd73f65a0e35b6a9a82778}
       \field{extraname}{1}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{2017 IEEE/AIAA 36th Digital Avionics Systems Conference (DASC)}
@@ -1196,8 +1024,8 @@
       \strng{authornamehash}{35d65aa696207850a74e74ab89be2213}
       \strng{authorfullhash}{35d65aa696207850a74e74ab89be2213}
       \strng{authorfullhashraw}{35d65aa696207850a74e74ab89be2213}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{IEEE Transactions on Intelligent Transportation Systems}
@@ -1239,8 +1067,8 @@
       \strng{authornamehash}{8ef6c9db6ec52ee77ebf00f260d8c2f0}
       \strng{authorfullhash}{7b2758eb051b8fdc4255404466ef93bf}
       \strng{authorfullhashraw}{7b2758eb051b8fdc4255404466ef93bf}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Proceedings of the 7th SESAR innovation days. Belgrade (Serbia)}
@@ -1278,8 +1106,8 @@
       \strng{authornamehash}{011d6731f9825f68768132b506730137}
       \strng{authorfullhash}{9db5ead81219fb707b2db5c386bbda6c}
       \strng{authorfullhashraw}{9db5ead81219fb707b2db5c386bbda6c}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Proceedings of the 13th SESAR Innovation Days, Sevilla, Spain}
@@ -1319,8 +1147,8 @@
       \strng{authornamehash}{d32edc260f180fc350ca1ef64a839871}
       \strng{authorfullhash}{ba43d3acfc7136e765c01efb75ac2b4c}
       \strng{authorfullhashraw}{ba43d3acfc7136e765c01efb75ac2b4c}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{International Conference on Research in Air Transportation}
@@ -1361,8 +1189,8 @@
       \strng{authornamehash}{dec915d60a3cc2b8348be4ac8cc89c8c}
       \strng{authorfullhash}{61d781b7636b937c94077a06cc28f995}
       \strng{authorfullhashraw}{61d781b7636b937c94077a06cc28f995}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{2021 IEEE/AIAA 40th Digital Avionics Systems Conference (DASC)}
@@ -1545,8 +1373,8 @@
       \strng{authornamehash}{39c11a2080d01131cfc622a10d063669}
       \strng{authorfullhash}{6beed48698fd53a965be9b38c975c993}
       \strng{authorfullhashraw}{6beed48698fd53a965be9b38c975c993}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{2018 IEEE/AIAA 37th Digital Avionics Systems Conference (DASC)}
@@ -1591,8 +1419,8 @@
       \strng{authorfullhash}{01dcaebba7acaa3e4c050c147bf8815b}
       \strng{authorfullhashraw}{01dcaebba7acaa3e4c050c147bf8815b}
       \field{extraname}{2}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of Open Aviation Science}
@@ -1636,8 +1464,8 @@
       \strng{authornamehash}{2eea7a85f9f4c30c1add01d04b58fb9f}
       \strng{authorfullhash}{f5d2070c6dc461a5299f4ee2ef01a26a}
       \strng{authorfullhashraw}{f5d2070c6dc461a5299f4ee2ef01a26a}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Proceedings 11th SESAR Innovation Days}
@@ -1675,8 +1503,8 @@
       \strng{authornamehash}{810ba3ba8a6be1f51a1054747bdfa797}
       \strng{authorfullhash}{922758cd0a232c3e60781a14c62062c3}
       \strng{authorfullhashraw}{922758cd0a232c3e60781a14c62062c3}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Proceedings of the Fourteenth USA/Europe Air Traffic Management Research and Development Seminar (ATM2021), Virtual Event}
@@ -1714,8 +1542,8 @@
       \strng{authornamehash}{c5804471c4d8fc94d31b6a79c80e3ae0}
       \strng{authorfullhash}{c5804471c4d8fc94d31b6a79c80e3ae0}
       \strng{authorfullhashraw}{c5804471c4d8fc94d31b6a79c80e3ae0}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Transportation Research Part C: Emerging Technologies}
@@ -1832,16 +1660,16 @@
       \strng{authornamehash}{ccc00fac91853d265551dc69b84735f6}
       \strng{authorfullhash}{ccc00fac91853d265551dc69b84735f6}
       \strng{authorfullhashraw}{ccc00fac91853d265551dc69b84735f6}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{A Transformer-based Trajectory Prediction Model to Support Air Traffic Demand Forecasting}
       \field{year}{2024}
     \endentry
     \entry{SCHULTZ2022102164}{article}{}{}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labeltitlesource}{title}
       \field{issn}{0969-6997}
       \field{journaltitle}{Journal of Air Transport Management}
@@ -1883,8 +1711,8 @@
       \strng{authorfullhash}{f6e58acd3b6d7731f2b77c7ded0a3871}
       \strng{authorfullhashraw}{f6e58acd3b6d7731f2b77c7ded0a3871}
       \field{extraname}{3}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{SID 2018, 8th SESAR Innovation Days}
@@ -1892,8 +1720,8 @@
       \field{year}{2018}
     \endentry
     \entry{BAO2024102667}{article}{}{}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labeltitlesource}{title}
       \field{issn}{0969-6997}
       \field{journaltitle}{Journal of Air Transport Management}
@@ -1932,8 +1760,8 @@
       \strng{authornamehash}{a94912f79f34a674a545f458b6221175}
       \strng{authorfullhash}{a94912f79f34a674a545f458b6221175}
       \strng{authorfullhashraw}{a94912f79f34a674a545f458b6221175}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0968-090X}
@@ -1974,8 +1802,8 @@
       \strng{authornamehash}{f65e62984ef401082f431decf60bb8ce}
       \strng{authorfullhash}{f65e62984ef401082f431decf60bb8ce}
       \strng{authorfullhashraw}{f65e62984ef401082f431decf60bb8ce}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Proceedings of the 13th USA/Europe Air Traffic Management Research and Development Seminar, Chicago, IL, USA}
@@ -2025,8 +1853,8 @@
       \strng{authornamehash}{8e4cc402f39da4febed0b69f65af3788}
       \strng{authorfullhash}{96163ae4a38983a71055d159d78387ed}
       \strng{authorfullhashraw}{96163ae4a38983a71055d159d78387ed}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0969-6997}
@@ -2192,8 +2020,8 @@
       \strng{authornamehash}{a4b583fa0e665ccfe90dcc27ff3c7bcb}
       \strng{authorfullhash}{a4b583fa0e665ccfe90dcc27ff3c7bcb}
       \strng{authorfullhashraw}{a4b583fa0e665ccfe90dcc27ff3c7bcb}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of Open Source Software}

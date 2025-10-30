@@ -1,24 +1,24 @@
 [0] Config.pm:308> INFO - This is Biber 2.20
 [0] Config.pm:311> INFO - Logfile is 'main.blg'
-[103] biber-MSWIN64:340> INFO - === 
-[148] Biber.pm:420> INFO - Reading 'main.bcf'
-[235] Biber.pm:994> INFO - Found 59 citekeys in bib section 0
-[245] Biber.pm:4463> INFO - Processing section 0
-[255] Biber.pm:4654> INFO - Looking for bibtex file 'reference-joas.bib' for section 0
+[104] biber-MSWIN64:340> INFO - === 
+[142] Biber.pm:420> INFO - Reading 'main.bcf'
+[241] Biber.pm:994> INFO - Found 52 citekeys in bib section 0
+[253] Biber.pm:4463> INFO - Processing section 0
+[262] Biber.pm:4654> INFO - Looking for bibtex file 'reference-joas.bib' for section 0
 [317] bibtex.pm:1713> INFO - LaTeX decoding ...
-[355] bibtex.pm:1519> INFO - Found BibTeX data source 'reference-joas.bib'
-[548] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[548] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[548] Biber.pm:4283> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'en-US'
-[548] Biber.pm:4289> INFO - No sort tailoring available for locale 'en-US'
-[572] bbl.pm:676> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[597] bbl.pm:779> INFO - Output to main.bbl
-[597] Biber.pm:131> WARN - Duplicate entry key: 'olive2024filtering' in file 'reference-joas.bib', skipping ...
-[597] Biber.pm:131> WARN - Duplicate entry key: 'roosenbrand2023contrail' in file 'reference-joas.bib', skipping ...
-[597] Biber.pm:131> WARN - Duplicate entry key: 'sun2023evaluating' in file 'reference-joas.bib', skipping ...
-[597] Biber.pm:131> WARN - BibTeX subsystem: C:\Users\93176\AppData\Local\Temp\biber_tmp_sMag\31b52b68cb55135d460cd75fa053c49c_17812.utf8, line 428, warning: 1 characters of junk seen at toplevel
-[597] Biber.pm:131> WARN - BibTeX subsystem: C:\Users\93176\AppData\Local\Temp\biber_tmp_sMag\31b52b68cb55135d460cd75fa053c49c_17812.utf8, line 447, warning: 1 characters of junk seen at toplevel
-[597] Biber.pm:131> WARN - BibTeX subsystem: C:\Users\93176\AppData\Local\Temp\biber_tmp_sMag\31b52b68cb55135d460cd75fa053c49c_17812.utf8, line 478, warning: 1 characters of junk seen at toplevel
-[597] Biber.pm:131> WARN - BibTeX subsystem: C:\Users\93176\AppData\Local\Temp\biber_tmp_sMag\31b52b68cb55135d460cd75fa053c49c_17812.utf8, line 544, warning: 1 characters of junk seen at toplevel
-[597] Biber.pm:131> WARN - I didn't find a database entry for 'LIU2024104652id' (section 0)
-[597] Biber.pm:133> INFO - WARNINGS: 8
+[360] bibtex.pm:1519> INFO - Found BibTeX data source 'reference-joas.bib'
+[543] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[543] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[543] Biber.pm:4283> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'en-US'
+[543] Biber.pm:4289> INFO - No sort tailoring available for locale 'en-US'
+[567] bbl.pm:676> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[590] bbl.pm:779> INFO - Output to main.bbl
+[590] Biber.pm:131> WARN - Duplicate entry key: 'olive2024filtering' in file 'reference-joas.bib', skipping ...
+[590] Biber.pm:131> WARN - Duplicate entry key: 'roosenbrand2023contrail' in file 'reference-joas.bib', skipping ...
+[590] Biber.pm:131> WARN - Duplicate entry key: 'sun2023evaluating' in file 'reference-joas.bib', skipping ...
+[590] Biber.pm:131> WARN - BibTeX subsystem: C:\Users\93176\AppData\Local\Temp\biber_tmp_aHRw\31b52b68cb55135d460cd75fa053c49c_25968.utf8, line 428, warning: 1 characters of junk seen at toplevel
+[590] Biber.pm:131> WARN - BibTeX subsystem: C:\Users\93176\AppData\Local\Temp\biber_tmp_aHRw\31b52b68cb55135d460cd75fa053c49c_25968.utf8, line 447, warning: 1 characters of junk seen at toplevel
+[591] Biber.pm:131> WARN - BibTeX subsystem: C:\Users\93176\AppData\Local\Temp\biber_tmp_aHRw\31b52b68cb55135d460cd75fa053c49c_25968.utf8, line 478, warning: 1 characters of junk seen at toplevel
+[591] Biber.pm:131> WARN - BibTeX subsystem: C:\Users\93176\AppData\Local\Temp\biber_tmp_aHRw\31b52b68cb55135d460cd75fa053c49c_25968.utf8, line 544, warning: 1 characters of junk seen at toplevel
+[591] Biber.pm:131> WARN - I didn't find a database entry for 'LIU2024104652id' (section 0)
+[591] Biber.pm:133> INFO - WARNINGS: 8

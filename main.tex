@@ -1,17 +1,18 @@
 \documentclass[
-  manuscript=article,  %% article (default), rescience, data, software, proceedings, poster
+  manuscript=proceedings,  %% article (default), rescience, data, software, proceedings, poster
   layout=preprint,  %% preprint (for submission) or publish (for publisher only)
-  year=20xx,
+  year=2025,
   volume=x,
 ]{joas}
 \usepackage{makecell}
 \usepackage{graphicx}
+\usepackage{floatrow}
 \usepackage{subcaption}
 \usepackage{amsmath} 
 \doi{xx.xxxxx/joas.xxxx.xxxx}
 
 % \conference{} command is only used for proceedings
-\conference{Conference Title}
+\conference{The 13th OpenSky Symposium}
 
 \received {1 April 20xx}
 \revised  {1 May 20xx}
@@ -28,7 +29,7 @@
 % --- below is the area for authors ---
 
 % Title within 12 words
-\title{Evaluating the Impact of ADS-B Data Cleaning on Algorithm Performance}
+\title{Review of ADS-B Data Usage with the focus on Data Cleaning}
 
 \author{Ruolan REN}
 \affiliation{Civil Aviation University of China, Tianjin, China}
@@ -54,17 +55,19 @@
 \email{christophe.hurter@recherche.enac.fr}
 
 % maximum five keywords
-\keywords{ADS-B Data; Data Cleaning; Data Quality; Algorithm Performance}
+\keywords{ADS-B; Data Cleaning; Autoencoder; Algorithm Performance}
 
 % Important: don't overuse abbreviations. Only use abbreviations if the term is used more than ten times throughout the paper. Otherwise, write them in full.
-\abbreviations{
-    JOAS: Journal of Open Aviation Science, % remove this in your paper!
-    ATM: Air Traffic Management % remove this in your paper!
-}
+%\abbreviations{
+%    JOAS: Journal of Open Aviation Science, % remove this in your paper!
+%    ATM: Air Traffic Management % remove this in your paper!
+%}
 
 \begin{document}
 \begin{abstract}
-  Automatic Dependent Surveillance-Broadcast (ADS-B) data have become a key resource for research on trajectory prediction, conflict detection, and air traffic management. However, due to inherent limitations in data acquisition and transmission, ADS-B datasets often contain missing points, irregular sampling, and anomalies. To ensure usability, researchers typically perform data cleaning and preprocessing before analysis. While these operations improve consistency and completeness, they inevitably alter the original data characteristics, potentially causing deviations between algorithm outputs and actual operational patterns. Existing studies tend to focus on specific cleaning methods, but lack systematic and quantitative evaluations of how different cleaning strategies impact downstream applications. To address this gap, this paper proposes an indicator-driven, structured evaluation framework. The framework integrates a multi-level data quality metric system, datasets with varying levels of cleaning, and comparative experiments under a unified prediction and analysis setup to examine how data cleaning influences algorithm performance. Experimental results demonstrate that differences in cleaning strategies can substantially affect prediction accuracy and reliability, highlighting the importance of balancing data cleaning and fidelity. This study provides a systematic approach for evaluating ADS-B data quality and establishes a more robust data foundation for trajectory prediction, safety assessment, and air traffic management applications.
+  Automatic Dependent Surveillance-Broadcast (ADS-B) data have become a key resource for research on trajectory prediction, conflict detection, and air traffic management. However, due to inherent limitations in data acquisition and transmission, ADS-B datasets often contain missing points, irregular sampling, and anomalies. To ensure usability, researchers typically perform data cleaning and preprocessing before analysis. While these operations improve consistency and completeness, they inevitably alter the original data characteristics, potentially causing deviations between algorithm outputs and actual operational patterns. Existing studies tend to focus on specific cleaning methods, but lack systematic and quantitative evaluations of how different cleaning strategies impact downstream applications.
+%  To address this gap, this paper proposes an indicator-driven, structured evaluation framework. The framework integrates a multi-level data quality metric system, datasets with varying levels of cleaning, and comparative experiments under a unified prediction and analysis setup to examine how data cleaning influences algorithm performance. Experimental results demonstrate that differences in cleaning strategies can substantially affect prediction accuracy and reliability, highlighting the importance of balancing data cleaning and fidelity. This study provides a comprehensive review of major ADS-B data applications and common cleaning methods, summarizing typical preprocessing pipelines used in current research and establishes a more robust data foundation for trajectory prediction, safety assessment, and air traffic management applications.
+  To address this gap, this study systematically evaluates the relationship between data cleaning and algorithmic performance in ADS-B analytics. This study provides a comprehensive review of major ADS-B data applications and common cleaning methods, summarizing typical preprocessing pipelines used in current research and offering guidance for developing more robust preprocessing and evaluation frameworks. An AutoEncoder (AE)-based experiment is conducted using datasets contaminated with different types of noise (Gaussian, drift, and spikes) to evaluate the impact of cleaning strategies on trajectory reconstruction performance. The experimental results show that the  AE model is sensitive to Gaussian noise and relatively robust to drift and spike disturbances, suggesting that ADS-B data cleaning should prioritize smoothing high-frequency noise for improving trajectory reconstruction performance.
 \end{abstract}
 
 \input{1_introduction}
